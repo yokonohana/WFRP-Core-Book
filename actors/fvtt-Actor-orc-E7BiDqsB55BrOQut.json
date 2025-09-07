@@ -1,0 +1,1258 @@
+{
+  "name": "Orc",
+  "type": "creature",
+  "img": "modules/wfrp4e-core/art/bestiary/orc-boy.webp",
+  "items": [
+    {
+      "name": "Armour",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "_id": "CAcGBn8sq62mVUxJ",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "origin": null,
+          "name": "Armour",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Armour",
+                "trigger": "APCalc",
+                "script": "[Script.Vb7rgl8T4VRswbnZ]",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature is protected by armor or thick hide. It has Rating Armor Points on all Hit Locations"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "3"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": false,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 5300000,
+      "_id": "8ijRQbMKvA6xnTLL",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Animosity",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "name": "Animosity",
+          "_id": "mqb7U1RR6DjIhLgy",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            },
+            "core": {}
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Socially or physically attacking @item.system.specification.value",
+                "trigger": "dialog",
+                "options": {
+                  "hideScript": "[Script.iVhi3Z6zPaf1bf8g]",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.wAETU6aTRr9d4oCU]",
+                "async": false
+              },
+              {
+                "label": "Interacting with @item.system.specification.value",
+                "trigger": "dialog",
+                "options": {
+                  "hideScript": "[Script.6Fe8M5MdklKS2olx]",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.0iTLDgFHO9Rgc010]",
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>You harbor an enmity for the Target, which will normally be a group of people or creatures, such as ‘Nordlanders’, ‘Beastmen’, or ‘Nobles’. You must attempt a Psychology Test whenever you encounter the group. If you pass, you may grumble and spit, but only suffer a penalty of –20 to all Fellowship Tests towards that group. Should you fail you are subject to Animosity.</p>\n<p>&nbsp;</p>\n<p>At the end of every subsequent Round, you may attempt another Psychology test to bring the Animosity to an end. If you do not, the effects of Animosity naturally come to an end when all members of the specified group in your line of sight are utterly pacified or gone, or you gain the Stunned or Unconscious Condition, or you become subject to another Psychology.</p>\n<p>&nbsp;</p>\n<p>When subject to Animosity, you must immediately attack the disagreeable creatures, either socially (insults, jibes, and similar) or physically (most commonly with fists), as appropriate. You also gain a bonus of +1 SL on any attempts to socially or mentally attack the group. Animosity is over-ridden by Fear and Terror.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": false,
+          "skill": "",
+          "rollCharacteristic": "wp",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "Greenskins"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": false,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 100000,
+      "_id": "ZitIUsQ36AeAgbFo",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Belligerent",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature loves to win a fight. As long as it has more Advantage than its opponent, it is Immune to Psychology"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": false,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 2800000,
+      "_id": "x665kalBpTVGnbGc",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Die Hard",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "No matter how hard the creature is hit, it gets back up. All Critical Wounds not resulting in death can be healed; just attach the requisite body parts to the correct places, perhaps with staples or large spikes to hold them in place, and it’s good to go. Even ‘death’ may be ‘healed’ if the appropriate parts, such as a lost head, are attached to the body. If death occurs and all parts are in place, it may attempt a Challenging (+0) Endurance Test requiring an SL of 6 at the start of every round for Toughness Bonus Rounds after death. If a Test is successful, the creature chokes back to life with 1 Wound \r\r\rHR: A successful Challenging (+0) Toughness Test each turn keeps it alive, on a failure, it dies. Increasing difficulty each time it 'dies?'"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": false,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 4900000,
+      "_id": "6RfN30yI432Q8uwY",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Infected",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "_id": "6rMAx2bGefOkubv8",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "origin": null,
+          "name": "Infected",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Infected",
+                "trigger": "applyDamage",
+                "script": "[Script.LQEWSN5KnHHATPsf]",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>The creature, or its weapon, carries a nasty infection. If it causes a living opponent to lose Wounds, it must pass an<strong> Easy (+40) Endurance </strong>Test or contract a @UUID[Compendium.wfrp4e-core.items.kKccDTGzWzSXCBOb]{Festering Wound}</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": false,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 5000000,
+      "_id": "70HqMk5BvjzOvgDK",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Night Vision",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>You can see very well in natural darkness. Assuming you have at least a faint source of light (such as starlight, moonlight, or bioluminescence) you can see clearly for 20 yards per level of Night Vision. Further, you can extend the effective illumination distance of any light sources by 20 yards per level of Night Vision.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": false,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 2700000,
+      "_id": "HC94u6XxBshfQZ5H",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Weapon",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature carries a melee weapon, or uses teeth, claws, or similar in combat.\n                \n                The weapon causes Damage equal to its Rating which already includes the creature’s Strength Bonus. Typically it will be 4 + its Strength Bonus (representing a Hand Weapon)"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": true,
+          "skill": "",
+          "rollCharacteristic": "ws",
+          "bonusCharacteristic": "s",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "4"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": false,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 1800000,
+      "_id": "svyvnHvlW5NA3QyJ",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Painless",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature feels no pain or can ignore it. All non-amputation penalties suffered from Critical Wounds are ignored, although Conditions are suffered as normal."
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": true,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 7600000,
+      "_id": "FKWnPja7hIfnLr6G",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Ranged (50)",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature has a ranged weapon. The weapon does Damage equal to the Rating and the range in yards is marked in brackets"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": true,
+          "skill": "",
+          "rollCharacteristic": "bs",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "ranged"
+        },
+        "specification": {
+          "value": "+8"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": true,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 5400000,
+      "_id": "hfq5Dnb2IT2WfRGf",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Size",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "name": "Size",
+          "_id": "JMSrxnNcqyguP1pz",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Size",
+                "trigger": "immediate",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.PmELrzD3RmF9qKkO]",
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">This trait represents creatures whose size differ from the game standard (i.e. roughly human sized). There are seven steps of Size, ranging from Tiny to Monstrous.</p>\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">&nbsp;</p>\n<div style=\"direction: ltr;\">\n<table style=\"direction: ltr; border-color: #a3a3a3; border-width: 1pt;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">Size</span></p>\n</td>\n<td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">&nbsp;Examples</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Tiny</p>\n</td>\n<td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Butterﬂy, Mouse, Pigeon</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Little</p>\n</td>\n<td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Cat, Hawk, Human Baby</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Small</p>\n</td>\n<td style=\"vertical-align: top; width: 2.1513in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Giant Rat, Halﬂing, Human Child</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Average</p>\n</td>\n<td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Dwarf, Elf, Human</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Large</p>\n</td>\n<td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Horse, Ogre, Troll</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .8875in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Enormous</p>\n</td>\n<td style=\"vertical-align: top; width: 2.0625in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Griffon, Wyvern, Manticore</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .8875in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Monstrous</p>\n</td>\n<td style=\"vertical-align: top; width: 2.1319in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Dragon, Giant, Greater Daemon</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>&nbsp;</p>\n<h3>Using Size</h3>\n<p>&nbsp;</p>\n<p>if you wish to use size to make a creature bigger — for example converting a giant spider to a gigantic spider — then increase Strength and Toughness by +10 and reduce Agility by –5 per step of size you increase the creature. Reverse this if you wish to make a creature smaller&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<h3>Size Combat Modifers</h3>\n<p>If larger:</p>\n<ul type=\"disc\">\n<li>Its weapons gain the Damaging Quality if the creature is one step larger, and Impact if two steps or more larger.</li>\n<li>It multiplies any Damage caused by the number of steps larger it is (so, 2 steps=×2, 3 steps =×3, and so on); this multiplication is calculated after all modifiers are applied.</li>\n<li>All successful strikes against smaller targets activate the Deathblow rule, even if the target survives.</li>\n</ul>\n<ul type=\"disc\">\n\n</ul>\n<p>&nbsp;</p>\n<p>If smaller:</p>\n<p>• It gains a bonus of +10 to hit.</p>\n<p>&nbsp;</p>\n<h3>Defending Against Big Creatures</h3>\n<p>You suffer a penalty of –2 SL for each step larger your opponent is when using Melee to defend an Opposed Test. It is recommended to dodge a Giant swinging a tree, not parry it!</p>\n<p>&nbsp;</p>\n\n<h3>Fear and Terror</h3>\n<p>If the creature is perceived to be aggressive, it causes Fear in any creature smaller than it, and Terror in any creature two or more steps smaller. The rating of the Fear or Terror equals the Size step difference. So, if the creature is Large, and its opponent is Small, it will cause Terror 2.</p>\n<p>&nbsp;</p>\n<h3>Moving in Combat</h3>\n<p>A creature that is larger ignores the need to Disengage if it wishes to leave melee combat; instead, it brushes smaller combatants out of the way, moving where it wishes.</p>\n<p>&nbsp;</p>\n<h3>Opposed Strength</h3>\n<p>During Opposed Strength Tests (and similar), if one creature is 2 or more size steps larger, it wins automatically. If one creature is 1 size step larger, the smaller creature must roll a Critical to contest the roll. If it does, SL are compared as normal. All other results mean the larger creature wins.</p>\n<p>&nbsp;</p>\n<h3>Stomp</h3>\n<p>Creatures that are larger than their opponents may make one Stomp as a Free Attack, by spending 1 Advantage, as they kick downwards or otherwise bash smaller opponents out of the way. This attack has a Damage equal to their Strength Bonus +0, and uses Melee(Brawling).</p>\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">&nbsp;</p>\n<div style=\"direction: ltr;\">\n<table style=\"direction: ltr; border-collapse: collapse; border: 1pt solid #A3A3A3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">Size </span></p>\n</td>\n<td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">Wounds</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Tiny</p>\n</td>\n<td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">1</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Little</p>\n</td>\n<td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Toughness Bonus</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Small</p>\n</td>\n<td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">(2×Toughness Bonus) + Willpower Bonus</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Average</p>\n</td>\n<td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Strength Bonus+(2×Toughness Bonus) + Willpower Bonus</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Large</p>\n</td>\n<td style=\"vertical-align: top; width: 4.0in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">(Strength Bonus+(2×Toughness Bonus) + Willpower Bonus) ×2</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .8666in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Enormous</p>\n</td>\n<td style=\"vertical-align: top; width: 3.9812in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">(Strength Bonus+(2×Toughness Bonus) + Willpower Bonus) ×4</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .8666in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">Monstrous</p>\n</td>\n<td style=\"vertical-align: top; width: 3.9812in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">(Strength Bonus+(2×Toughness Bonus) + Willpower Bonus) ×8</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "Large"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": true,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 1200000,
+      "_id": "zrKcOsS7laWCMJLz",
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "autoCalcRun": {},
+    "autoCalcWalk": {},
+    "autoCalcWounds": {},
+    "autoCalcCritW": {},
+    "autoCalcCorruption": {},
+    "autoCalcEnc": {},
+    "talentTests": {},
+    "combatSkills": {},
+    "_sheetTab": {},
+    "modifier": {},
+    "autoCalcSize": {},
+    "meleeDamageIncrease": {},
+    "rangedDamageIncrease": {},
+    "robust": {},
+    "ambi": {},
+    "resolute": {},
+    "eqpPoints": {},
+    "defensive": {},
+    "core": {}
+  },
+  "system": {
+    "characteristics": {
+      "ws": {
+        "initial": 35,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "bs": {
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "s": {
+        "initial": 35,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "t": {
+        "initial": 45,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "i": {
+        "initial": 20,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "ag": {
+        "initial": 25,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "dex": {
+        "initial": 20,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "int": {
+        "initial": 25,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "wp": {
+        "initial": 35,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "fel": {
+        "initial": 20,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      }
+    },
+    "status": {
+      "wounds": {
+        "value": 14,
+        "max": 14
+      },
+      "advantage": {
+        "value": 0,
+        "max": 10
+      },
+      "criticalWounds": {
+        "value": 0,
+        "max": 4
+      },
+      "sin": {
+        "value": 0
+      },
+      "corruption": {
+        "value": 0,
+        "max": 0
+      },
+      "encumbrance": {
+        "max": 7,
+        "current": 0
+      },
+      "mount": {
+        "id": "",
+        "mounted": false,
+        "isToken": false,
+        "tokenData": {
+          "scene": "",
+          "token": ""
+        }
+      },
+      "ward": {
+        "value": 0
+      }
+    },
+    "details": {
+      "species": {
+        "value": "Orc",
+        "subspecies": ""
+      },
+      "gender": {
+        "value": "???"
+      },
+      "biography": {
+        "value": "<section id=\"secret-Fkkw0kiOwXuiWN3G\" class=\"secret\"><blockquote><p>We iz the best. We iz not dem weedie Gobbos or stoopid Trollz, we iz well ‘ard! An’ if anywun sayz we ain’t, we iz gunna stomp on der edz.’</p><p style=\"text-align: right\"><em>– Gurkk skulltaka, Orc Boss</em></p></blockquote><p> </p><p>Orcs are nasty, brutal, belligerent, and almost immune to pain. They have muscular, hulking bodies, wide, powerful shoulders, and won’t let a little thing like a lost arm get in the way of a good scrap. They are built for fighting and like nothing more than doing so. When they have no enemies to fight, they take on rival groups of Greenskins. If there is no rival group, they will fight among themselves. Though not as numerous as @UUID[Compendium.wfrp4e-core.actors.zzdOpKqBC28J66Mn]{Goblins}, they are bigger and tougher, and they let them know it at every opportunity. Orcs can grow to prodigious size, with larger Orcs stronger, tougher, and more aggressive, and therefore accorded more prestige: for might equals right in their warlike society. Some Orcs ride huge boars into battle, a sight that rarely fails to terrify.</p></section>"
+      },
+      "gmnotes": {
+        "value": ""
+      },
+      "size": {
+        "value": "avg"
+      },
+      "move": {
+        "value": 4,
+        "walk": "8",
+        "run": "16"
+      },
+      "god": {
+        "value": ""
+      },
+      "status": {
+        "value": "",
+        "standing": "",
+        "tier": 0,
+        "modifier": 0
+      },
+      "hitLocationTable": {
+        "value": "hitloc"
+      },
+      "age": {},
+      "height": {},
+      "weight": {},
+      "haircolour": {},
+      "eyecolour": {},
+      "distinguishingmark": {},
+      "mainHand": "r"
+    },
+    "excludedTraits": [
+      "FKWnPja7hIfnLr6G",
+      "hfq5Dnb2IT2WfRGf",
+      "zrKcOsS7laWCMJLz"
+    ],
+    "settings": {
+      "equipPoints": 2,
+      "autoCalc": {
+        "run": true,
+        "walk": true,
+        "wounds": true,
+        "criticals": true,
+        "corruption": true,
+        "encumbrance": true,
+        "size": true
+      }
+    }
+  },
+  "prototypeToken": {
+    "flags": {},
+    "name": "Orc",
+    "displayName": 20,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "actorLink": false,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "status.wounds"
+    },
+    "bar2": {
+      "attribute": "status.advantage"
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/wfrp4e-core/tokens/popout/orc.webp",
+      "tint": "#ffffff",
+      "scaleX": 2,
+      "scaleY": 2,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "appendNumber": false,
+    "prependAdjective": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "_stats": {
+    "coreVersion": "13.348",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.1.5",
+    "createdTime": 1757182821962,
+    "modifiedTime": 1757182821962,
+    "lastModifiedBy": "rbZmnErLLwkYOmyj",
+    "exportSource": {
+      "worldId": "aty",
+      "uuid": "Actor.E7BiDqsB55BrOQut",
+      "coreVersion": "13.348",
+      "systemId": "wfrp4e",
+      "systemVersion": "9.1.5"
+    }
+  },
+  "folder": "jbBnFElHNJcDbT7G",
+  "ownership": {
+    "default": 0
+  }
+}

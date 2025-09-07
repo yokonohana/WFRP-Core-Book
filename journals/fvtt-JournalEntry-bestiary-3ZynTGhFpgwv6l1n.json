@@ -1,0 +1,345 @@
+{
+  "name": "Bestiary",
+  "pages": [
+    {
+      "name": "Bestiary",
+      "type": "text",
+      "_id": "UyUu4g8GQRp16paM",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<blockquote><p>‘Adversity with the monster makes the man. Prosperity with the man makes the monster.’</p><p style=\"text-align:right\"><em>– Albrecht Zweistein, Middenlander Professor</em></p></blockquote><p>The creatures presented in the Bestiary are generic, typical starter examples of their ilk. You are encouraged to customise them and create your own, using the statistics found here and adding Skills and Talents as you feel are necessary, perhaps even using the full Career system to create terrifying opponents. The quickest way to create fast NPC adversaries is to use Creature Traits; all creatures come with one or more Creature Traits as standard, but additional ones can be added as required, and they can be mixed with @UUID[JournalEntry.6zOdTLv3YeYeJ4hR]{Skills and Talents} as you see fit.</p><blockquote class=\"foundry-note\"><p>Drag and drop careers onto NPC and Creature sheets to automatically apply advances based on that career for quick NPC creation.</p></blockquote><p>The Optional traits listed alongside each creature presents some of the most commonly found variants of the species. However, you may choose to apply any trait to any creature if it fits what you want to represent in your game.</p><blockquote class=\"foundry-note\"><p>You can find <strong>Optional Traits</strong> in the Notes tab of a creature sheet, where they can be toggled on and off.</p></blockquote><p>For Creature Trait rules, refer to @UUID[.vUPuF2ZsWvNKUCWy]{Creature Traits}.</p><blockquote class=\"sidebar\"><h3 style=\"text-align:center;text-transform:uppercase\" class=\"sidebar-title\"><em>Generic Creature Traits</em></h3><p><em>Generic Creature Traits add extra variety to your NPCs. The following traits are appended to the Optional list of all creatures.</em></p><p><em>@UUID[Compendium.wfrp4e-core.items.4CMKeDTDrRQZbPIJ]{Afraid}, @UUID[Compendium.wfrp4e-core.items.0VpT5yubw4UL7j6f]{Animosity}, @UUID[Compendium.wfrp4e-core.items.VUJUZVN3VYhOaPjj]{Armour}, @UUID[Compendium.wfrp4e-core.items.a8MC97PLzl10WocT]{Big}, @UUID[Compendium.wfrp4e-core.items.15ENOMf345S5AL68]{Brute}, @UUID[Compendium.wfrp4e-core.items.Ni4hNAPv3LhTpgMA]{Clever}, @UUID[Compendium.wfrp4e-core.items.3WI8mhTinC8inxyj]{Cunning}, @UUID[Compendium.wfrp4e-core.items.9NROryHer1uXAKwY]{Elite}, @UUID[Compendium.wfrp4e-core.items.9MjH4xyVrd3Inzak]{Fast}, @UUID[Compendium.wfrp4e-core.items.zImcTgEl2XNnbu5W]{Hardy}, @UUID[Compendium.wfrp4e-core.items.E98mVLZgE8bX5vQW]{Hatred}, @UUID[Compendium.wfrp4e-core.items.wGTD2LezlI6Atyy0]{Leader}, @UUID[Compendium.wfrp4e-core.items.GwjvDLZz3PvK6xgs]{Prejudice}, @UUID[Compendium.wfrp4e-core.items.k9539MBTFplxsysT]{Tough}, @UUID[Compendium.wfrp4e-core.items.AtpAudHA4ybXVlWM]{Weapon}</em></p><p><em>Note: Most creatures have a suggested Weapon included, and maybe Armour too, but that doesn’t preclude them from being changed as you see fit.</em></p></blockquote><blockquote class=\"sidebar\"><h3 style=\"text-align:center;text-transform:uppercase\" class=\"sidebar-title no-toc\"><em>Random Creatures and Custom PC Species</em></h3><p><em>The Bestiary presents Characteristics as a round number, such as 20, 25, or 30. Obviously, in practice, the numbers vary significantly from individual to individual. If you wish to randomly create Characteristics, subtract –10, then add 2d10. So, a Characteristic of 30 translates to 2d10+20. If a Characteristic starts at 5, roll just 1d10 to randomise it. This can even be used to create PCs out of traditionally NPC species by using random Characteristics and adding an appropriate career, creating, say, an Ogre soldier, Skaven engineer, or Vampire noble. Obviously, this will take a little bending of the rules to work, but if you are interested in playing characters like this, it’s not difficult to do.</em></p><blockquote class=\"foundry-note\"><p>You can click the <span style=\"font-family:Courier\"><strong>C</strong></span> randomization button at the top of an NPC or Creature sheet to randomize its characteristics.</p></blockquote></blockquote><h2>Creature Hit Locations</h2><p>At some point you may need to determine a Hit Location for a non-Human-shaped creature. Normally, this is simple. For quadrupeds, simply make arm hits foreleg hits, and leg hits rear-leg hits. Or for birds, make arm hits equate to wing hits. However, some require special attention, such as Snakes and Spiders. For those, use Alternative Hit Locations.</p><p>For any creature 2 steps larger than you (see @UUID[Compendium.wfrp4e-core.items.8slW8CJ2oVTxeQ6q]{Size}), choose a location to hit according to what’s closest to you (or in Line-of-Sight for shooting).</p><p>If an animal has a Hit Location without a Critical Table, such as a tentacle, tail, or wing, roll on the Arm table and describe the results in an appropriate way.</p><blockquote class=\"sidebar\"><h3 style=\"text-align:center;text-transform:uppercase\" class=\"sidebar-title no-toc\"><em>Alternative Hit Locations</em></h3><p><em>@UUID[RollTable.YWzuhQN0d9orIm2h]{Hit Location - Snake}</em></p><p><em>@UUID[RollTable.bF4KEpOxadDG0wS7]{Hit Location - Spider}</em></p><blockquote class=\"foundry-note\"><p><em>You can change what Hit Location table an Actor uses in the Actor Configuration menu, accessed by the <strong>Configure</strong> button at the top of an Actor Sheet</em></p></blockquote></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Peoples of the Reikland",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[JournalEntry.IQ0PgoJihQltCBUU]{Character} presents the primary peoples of the Reikland. This section explains how to create fast NPC equivalents, and also introduces Ogres. </p><p>For important characters in your campaign, you may want to use the full character creation rules. However, sometimes you just want a fast NPC. To quickly create an NPC, use one of the following standard profiles and apply @UUID[.vUPuF2ZsWvNKUCWy]{Creature Traits} as required, with those listed in @UUID[.UyUu4g8GQRp16paM#generic-creature-traits]{Generic Creature Traits} being the best initial choices.</p><p>@UUID[Compendium.wfrp4e-core.actors.7ihBjcHcewZ2Obul]{Human}</p><p>@UUID[Compendium.wfrp4e-core.actors.ImdVnI8mEiOmKriI]{Dwarf}</p><p>@UUID[Compendium.wfrp4e-core.actors.r70e6JNM3MjWIb7N]{Halfling}</p><p>@UUID[Compendium.wfrp4e-core.actors.QutqbzpxKqsjQ6yN]{High Elf}</p><p>@UUID[Compendium.wfrp4e-core.actors.5wl3KH6hXsGwUcZa]{Wood Elf}</p><p>@UUID[Compendium.wfrp4e-core.actors.nPvDzBcqDGuRaS7x]{Ogre}</p><h3>Examples</h3><p>Below are two examples of Human NPCs created using just Creature Traits and standard random Characteristics.</p><div style=\"display:flex;justify-content:space-evenly\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/black-bella.webp\" width=\"200\" height=\"278\" /><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/pol-dankels.webp\" width=\"194\" height=\"275\" /></div><div style=\"display:flex;justify-content:space-evenly\"><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.2lvE7Ypir9uuRjVT]{Black Bella}</p><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.YavXt2NP9N8Puxse]{Pol Dankels}</p></div><p></p>",
+        "markdown": ""
+      },
+      "_id": "DpmK2UlAjCnLrMMK",
+      "image": {},
+      "video": {
+        "volume": 0.5,
+        "controls": true
+      },
+      "src": null,
+      "sort": 300000,
+      "flags": {
+        "core": {}
+      },
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "system": {},
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Creature Traits",
+      "type": "text",
+      "_id": "vUPuF2ZsWvNKUCWy",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>These are the Creature Traits. Use them to create unique NPCs.</p><p>@UUID[Compendium.wfrp4e-core.items.4xF7M6ylIiGntekh]</p><p>@UUID[Compendium.wfrp4e-core.items.4CMKeDTDrRQZbPIJ]</p><p>@UUID[Compendium.wfrp4e-core.items.sJ3yX1kvzu2hgNq5]</p><p>@UUID[Compendium.wfrp4e-core.items.0VpT5yubw4UL7j6f]</p><p>@UUID[Compendium.wfrp4e-core.items.rOV2s6PQBBrhpMOv]</p><p>@UUID[Compendium.wfrp4e-core.items.VUJUZVN3VYhOaPjj]</p><p>@UUID[Compendium.wfrp4e-core.items.GbDyBCu8ZjDp6dkj]</p><p>@UUID[Compendium.wfrp4e-core.items.AGcJl5rHjkyIQBPP]</p><p>@UUID[Compendium.wfrp4e-core.items.a8MC97PLzl10WocT]</p><p>@UUID[Compendium.wfrp4e-core.items.pLW9SVX0TVTYPiPv]</p><p>@UUID[Compendium.wfrp4e-core.items.5muSFXd6oc760uVj]</p><p>@UUID[Compendium.wfrp4e-core.items.j6v78dnOOdCB6c3d]</p><p>@UUID[Compendium.wfrp4e-core.items.uqGxFOEqeurwkAO3]</p><p>@UUID[Compendium.wfrp4e-core.items.15ENOMf345S5AL68]</p><p>@UUID[Compendium.wfrp4e-core.items.4mF5Sp3t09kZhBYc]</p><p>@UUID[Compendium.wfrp4e-core.items.7HSUM2iPZLX4ueIW]</p><p>@UUID[Compendium.wfrp4e-core.items.Ni4hNAPv3LhTpgMA]</p><p>@UUID[Compendium.wfrp4e-core.items.mCh1KK9jomwFZcLB]</p><p>@UUID[Compendium.wfrp4e-core.items.KynNUYYKzTMeHrKl]</p><p>@UUID[Compendium.wfrp4e-core.items.UB4mDroL6S1F9B4u]</p><p>@UUID[Compendium.wfrp4e-core.items.M5QSWOYt2Rbv2yxW]</p><p>@UUID[Compendium.wfrp4e-core.items.xsGbDFqK2qh7lsIj]</p><p>@UUID[Compendium.wfrp4e-core.items.3WI8mhTinC8inxyj]</p><p>@UUID[Compendium.wfrp4e-core.items.v3uzEthcq0JRar0J]</p><p>@UUID[Compendium.wfrp4e-core.items.JQa5DLnTs2SEzRrc]</p><p>@UUID[Compendium.wfrp4e-core.items.UsJ2uIOOtHA7JqD5]</p><p>@UUID[Compendium.wfrp4e-core.items.PaW8i6JOxWyzAZCz]</p><p>@UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]</p><p>@UUID[Compendium.wfrp4e-core.items.9NROryHer1uXAKwY]</p><p>@UUID[Compendium.wfrp4e-core.items.tNWrJUOArwfWXsPw]</p><p>@UUID[Compendium.wfrp4e-core.items.9MjH4xyVrd3Inzak]</p><p>@UUID[Compendium.wfrp4e-core.items.pTorrE0l3VybAbtn]</p><p>@UUID[Compendium.wfrp4e-core.items.EO05HX7jql0g605A]</p><p>@UUID[Compendium.wfrp4e-core.items.yRhhOlt18COq4e1q]</p><p>@UUID[Compendium.wfrp4e-core.items.fjd1u9VAgiYzhBRp]</p><p>@UUID[Compendium.wfrp4e-core.items.plVyl4vjS2fX16Rv]</p><p>@UUID[Compendium.wfrp4e-core.items.HbrwGhUl0ZXz4kLA]</p><p>@UUID[Compendium.wfrp4e-core.items.aE3pyW20Orvdjzj0]</p><p>@UUID[Compendium.wfrp4e-core.items.BqPZn6q3VHn9HUrW]</p><p>@UUID[Compendium.wfrp4e-core.items.xneBqGOs1QS7kfUr]</p><p>@UUID[Compendium.wfrp4e-core.items.3wCtgMDNnu8MFmyk]</p><p>@UUID[Compendium.wfrp4e-core.items.IAWyzDfC286a9MPz]</p><p>@UUID[Compendium.wfrp4e-core.items.V0c3qBU1CMm8bmsW]</p><p>@UUID[Compendium.wfrp4e-core.items.TBcdTlYSRH8Rd1x0]</p><p>@UUID[Compendium.wfrp4e-core.items.wGTD2LezlI6Atyy0]</p><p>@UUID[Compendium.wfrp4e-core.items.yrkI7ATjqLPDTFmZ]</p><p>@UUID[Compendium.wfrp4e-core.items.mDgEMOoJpi8DkRYb]</p><p>@UUID[Compendium.wfrp4e-core.items.AGreVSdN2jDSenEl]</p><p>@UUID[Compendium.wfrp4e-core.items.c1T7MelXEZLQfpVv]</p><p>@UUID[Compendium.wfrp4e-core.items.lV7Bxi3T3ps4QBlc]</p><p>@UUID[Compendium.wfrp4e-core.items.FmHDbCOy3pH8yKhm]</p><p>@UUID[Compendium.wfrp4e-core.items.wMwSRDmgiF2IdCJr]</p><p>@UUID[Compendium.wfrp4e-core.items.0eEJ280MIC0IbEop]</p><p>@UUID[Compendium.wfrp4e-core.items.GwjvDLZz3PvK6xgs]</p><p>@UUID[Compendium.wfrp4e-core.items.Z1TGphWhic2E3Lfx]</p><p>@UUID[Compendium.wfrp4e-core.items.VFV2dmrfuVJ3RJnD]</p><p>@UUID[Compendium.wfrp4e-core.items.SfUUdOGjdYpr3KSR]</p><p>@UUID[Compendium.wfrp4e-core.items.8slW8CJ2oVTxeQ6q]</p><p>@UUID[Compendium.wfrp4e-core.items.IPKRMGry6WotuS1G]</p><p>@UUID[Compendium.wfrp4e-core.items.vY0CHKsJRV3gYBj3]</p><p>@UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]</p><p>@UUID[Compendium.wfrp4e-core.items.UmxGZRV0Lw3TZ0Kx]</p><p>@UUID[Compendium.wfrp4e-core.items.9GNpAqgsKzxZKJpp]</p><p>@UUID[Compendium.wfrp4e-core.items.BxAvP2g1KbHPbbbA]</p><p>@UUID[Compendium.wfrp4e-core.items.E2Es82TvBKa7CoDG]</p><p>@UUID[Compendium.wfrp4e-core.items.UnJ25lL8aUzem5JO]</p><p>@UUID[Compendium.wfrp4e-core.items.JIAe7i7dqTQBu4do]</p><p>@UUID[Compendium.wfrp4e-core.items.kJNAY1YRaCy9IgmT]</p><p>@UUID[Compendium.wfrp4e-core.items.xg6z63j6BH5AaqLL]</p><p>@UUID[Compendium.wfrp4e-core.items.k9539MBTFplxsysT]</p><p>@UUID[Compendium.wfrp4e-core.items.ClOlztW6hH8rslbp]</p><p>@UUID[Compendium.wfrp4e-core.items.V0naR1YbYCl0KIxp]</p><p>@UUID[Compendium.wfrp4e-core.items.PFTD9gDvRWW9uh5g]</p><p>@UUID[Compendium.wfrp4e-core.items.D0ImWEIMSDgElsnl]</p><p>@UUID[Compendium.wfrp4e-core.items.3MDwUi7BVxwWVI2V]</p><p>@UUID[Compendium.wfrp4e-core.items.gFkRm9wS65qe18Xv]</p><p>@UUID[Compendium.wfrp4e-core.items.JzeN9MZ0xUDvpE2l]</p><p>@UUID[Compendium.wfrp4e-core.items.KII1gWnxIZ8HzmU5]</p><p>@UUID[Compendium.wfrp4e-core.items.Bvd2aZ0gQUXHfCTh]</p><p>@UUID[Compendium.wfrp4e-core.items.AtpAudHA4ybXVlWM]</p><p>@UUID[Compendium.wfrp4e-core.items.Bw6tQyzOhcl7aQ46]</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 900000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Beasts of the Reikland",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<p>Presented here are a smattering of the common wild and domesticated animals found in the Reikland. </p><div style=\"display:flex;justify-content:space-evenly;flex-wrap:wrap\"><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/bear.webp\" width=\"197\" height=\"184\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.KtYgLHcSLpHmnGI2]{Bear}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/boar.webp\" width=\"145\" height=\"187\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.7629Eaow3acVS59H]{Boar}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/dog.webp\" width=\"193\" height=\"178\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.R1iWvfV9EvgIc8bJ]{Dog}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/rat.webp\" width=\"192\" height=\"233\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.oenbbB0PitRWUBfZ]{Giant Rat}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/spider.webp\" width=\"215\" height=\"278\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.VPVnyae6VHeD9cEP]{Giant Spider}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/horse.webp\" width=\"160\" height=\"172\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.b1R5sW6lYIViJ2ki]{Horse}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/pidgeon.webp\" width=\"214\" height=\"140\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.ge5zXH2qboxaac7v]{Pigeon}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/snake.webp\" width=\"221\" height=\"135\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.AAiKqD1IoweDpJI7]{Snake}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/wolf.webp\" width=\"183\" height=\"221\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.lSvYEInG8sZ03vqd]{Wolf}</p></div></div>",
+        "markdown": ""
+      },
+      "_id": "ahM2hOJnyXcSKrdS",
+      "image": {},
+      "video": {
+        "volume": 0.5,
+        "controls": true
+      },
+      "src": null,
+      "sort": 400000,
+      "flags": {
+        "core": {}
+      },
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "system": {},
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Monstrous Beasts of the Reikland",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<p>Throughout the Reikland, all manner of large and dangerous monsters hunt, preying on the unwise and the unwary, dragging them back to their bone-lined lairs to be consumed at leisure.</p><div style=\"display:flex;justify-content:space-evenly;flex-wrap:wrap\"><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/basilisk.webp\" width=\"236\" height=\"169\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.z8f3vySKIpTxGr62]{Basilisk}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/bog-octopus.webp\" width=\"263\" height=\"339\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.FmEDHnfAe2iIugpt]{Bog Octopus}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/squig.webp\" width=\"237\" height=\"188\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.VMceSpLje0J7lfP0]{Cave Squig}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/demigryh.webp\" width=\"221\" height=\"278\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.MLtDY4bwzGQpaABN]{Demigryph}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/dragon.webp\" width=\"255\" height=\"188\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.LZttdCIxmFr1sGsS]{Dragon}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/fenbeast.webp\" width=\"257\" height=\"333\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.HKSn8iNSS9WcAuJc]{Fenbeast}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/fimir.webp\" width=\"233\" height=\"277\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.kt9ob9BdK6zLDWxn]{Fimir}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/giant.webp\" width=\"201\" height=\"260\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.HZfZaCjdniz5Z4CP]{Giant}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/griffin.webp\" width=\"250\" height=\"250\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.8g9rnHLiZ1pJcPPt]{Griffon}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/hippogriff.webp\" width=\"291\" height=\"225\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.RiXpMLex8SZf6gaQ]{Hippogryph}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/hydra.webp\" width=\"229\" height=\"230\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.A4G4bTYxot3ZygZO]{Hydra}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/jabberslythe.webp\" width=\"260\" height=\"220\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.9q8QzWB4o7aj6ZxL]{Jabberslythe}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/manticore.webp\" width=\"294\" height=\"230\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.XtVkAVgZRIIgrBXb]{Manticore}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/pegasus.webp\" width=\"211\" height=\"250\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.Yee9gwxJUceGbnO2]{Pegasus}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/troll.webp\" width=\"198\" height=\"264\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.7qslmdLa7so3BmFk]{Troll}</p></div><div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/wyvern.webp\" width=\"237\" height=\"237\" /><p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.KeB0khEeq462qTJw]{Wyvern}</p></div></div><blockquote class=\"sidebar\"><h3 class=\"sidebar-title no-toc\" style=\"text-align:center;text-transform:uppercase\"><em>Going for a Troll</em></h3><p><em>There are a number of species of Trolls so you should feel free to customise them at will. Some of the Trolls most likely to trouble parties in the Reikland include:</em></p><p><em><strong>Chaos Trolls</strong>: These bear one or more Mutations. These ‘gifts’ from the Dark Gods of Chaos make them especially dangerous and unpredictable. These unfortunate creatures are often pressed into the service of marauding chaos warbands, or Beastman Warherds — the more severely mutated the Troll, the greater the perceived favour of the Ruinous Powers, and the greater the value of the monster to its herd.</em></p><p><em><strong>River Trolls</strong>: Skulking in the stagnant, foetid marshes of @UUID[JournalEntry.ozE2DMCMK64eE5pD.JournalEntryPage.Zhp59VXYiv6dGfhR]{the Reik}, River Trolls are an unfortunately common sight. They are opportunistic hunters, using their weed-like hides as they float like clumps of weed or flotsam, or lie in wait in muddy banks waiting for small boats or unwary travellers.</em></p><p><em><strong>Stone Trolls</strong>: Rarely seen outside of the mountain ranges of the Empire, Stone Trolls have exceedingly tough hides that have ossified into rough, stone-like armoured plates, which both protect the troll from damage and help them blend into their surroundings. They make their lairs in caves and are one of the most common hazards encountered by those crossing @UUID[JournalEntry.ozE2DMCMK64eE5pD.JournalEntryPage.w0YfGxsBuLoODCgc]{the Grey Mountains}.</em></p></blockquote>",
+        "markdown": ""
+      },
+      "_id": "TRjfrYQgceS7Mh9b",
+      "image": {},
+      "video": {
+        "volume": 0.5,
+        "controls": true
+      },
+      "src": null,
+      "sort": 500000,
+      "flags": {
+        "core": {}
+      },
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "system": {},
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "The Greenskin Hordes",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<p>Orcs and Goblins are the scourge of civilisation. They raid ceaselessly from their crude fortifications, most commonly warring amongst themselves, culling the weak and revering the strong. Inevitably, a Greenskin warlord will eventually arise from these internecine skirmishes and bind the neighbouring tribes under one banner. Then the drums of war sound, and the green tide swells once more, ready to wash over every village and town in its path, leaving nothing but blood and ruin in its wake. </p>\n<div style=\"display:flex;justify-content:space-evenly;flex-wrap:wrap\">\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/orc-boy.webp\" width=\"199\" height=\"230\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.E7BiDqsB55BrOQut]{Orc}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/goblin.webp\" width=\"158\" height=\"201\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.zzdOpKqBC28J66Mn]{Goblin}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/snotling.webp\" width=\"168\" height=\"184\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.wdnXbjtKK7MtsZzc]{Snotling}</p>\n</div>\n</div>",
+        "markdown": ""
+      },
+      "_id": "XOCYupInjrSk7KCb",
+      "image": {},
+      "video": {
+        "volume": 0.5,
+        "controls": true
+      },
+      "src": null,
+      "sort": 600000,
+      "flags": {
+        "core": {}
+      },
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "system": {},
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "The Restless Dead",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<p>Neither living, nor truly dead, the Undead are the animate corpses of once living beings, granted an unholy parody of life through the fell arcane discipline of Necromancy. The shambling hordes of the restless dead come in many forms, from the reanimated corpses of Zombies and Skeletons, to the shrieking, spectral Ghosts and Banshees, to the brooding, manifest evil of the Vampire Lords.</p>\n<div style=\"display:flex;justify-content:space-evenly;flex-wrap:wrap\">\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/skeleton.webp\" width=\"163\" height=\"217\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.Mt5JAoOSaEH1PdcP]{Skeleton}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/zombie.webp\" width=\"173\" height=\"234\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.T79RqnDOAQLn3I1s]{Zombie}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/dire-wolf.webp\" width=\"220\" height=\"234\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.umddAQkmxVYG0AzO]{Dire Wolf}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/ghoul.webp\" width=\"191\" height=\"250\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.6B7LMdYtunAftsFN]{Crypt Ghoul}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/varghulf.webp\" width=\"225\" height=\"230\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.XoSSlIsqXkiBlycn]{Varghulf}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/cairn-wraith.webp\" width=\"179\" height=\"231\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.hMbcLVjk7eUdxtqC]{Cairn Wraith}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/banshee.webp\" width=\"203\" height=\"259\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.TWy5l4uYTRAtjfit]{Tomb Banshee}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/tokens/vampire.webp\" width=\"253\" height=\"253\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.T5qAtpoKtB8iwTBd]{Vampire}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/ghost.webp\" width=\"197\" height=\"254\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.GgSxlomoV220kd3G]{Ghost}</p>\n</div>\n</div>",
+        "markdown": ""
+      },
+      "_id": "IoatZqDV81nTql4H",
+      "image": {},
+      "video": {
+        "volume": 0.5,
+        "controls": true
+      },
+      "src": null,
+      "sort": 700000,
+      "flags": {
+        "core": {}
+      },
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "system": {},
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Slaves to Darkness",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<p>Chaos. The very word is enough to send superstitious smallfolk scurrying for the temple of Sigmar, making the sign of the hammer as they flee. But, for all good citizens of the Empire fear Chaos invasion or Beastmen attack, the true danger lies within the Empire’s borders; cultists lurk in basements, corrupt nobles treat with Daemons, and ignorant villagers make offerings of their mutated offspring rather than killing them swiftly, unwittingly swelling the ranks of armies of the damned. </p>\n<h3>Beastmen, The Children of Chaos</h3>\n<p>Beastmen are grotesque hybrids of animal and Human. They consider themselves the true children of Chaos, blessed by the Dark Gods before all other species. Their savage herds stalk the forests, gathering numbers and worshipping at profane altars of stone daubed with excrement.</p>\n<div style=\"display:flex;justify-content:space-evenly;flex-wrap:wrap\">\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/gor.webp\" width=\"169\" height=\"202\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.R37OtN5gmPWCYOP3]{Gor}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/ungor.webp\" width=\"129\" height=\"164\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.vrYs3cbxvXtre6rv]{Ungor}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/minotaur.webp\" width=\"180\" height=\"188\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.cAK1bMj1ne7HPcxI]{Minotaur}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/bray-shaman.webp\" width=\"162\" height=\"211\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.cHVOdcEkuatqjYV1]{Bray-Shaman}</p>\n</div>\n</div>\n<h3>Cultists, The Lost and the Damned</h3>\n<p>Like a rotten beam beneath white-washed walls, a terrible enemy lurks unseen within the Empire. In every province and town, men and women are seduced by the subtle lures of Chaos, tempted by the promise of power, knowledge, strength, or release.</p>\n<div style=\"display:flex;justify-content:space-evenly;flex-wrap:wrap\">\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/mutant.webp\" width=\"160\" height=\"195\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.P0GkA7DPaLbeOTkf]{Mutant}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/cultist-nurgle.webp\" width=\"154\" height=\"199\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.jfMhkQGzjFWDxVOm]{Cultist}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/chaos-warrior-nurgle.webp\" width=\"241\" height=\"231\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.a05lQsGjSv62wF0U]{Chaos Warrior}</p>\n</div>\n</div>\n<blockquote class=\"sidebar\">\n<h3 class=\"sidebar-title no-toc\" style=\"text-align:center;text-transform:uppercase\"><em>Options: The Enemies Within</em></h3>\n<p><em>Cultists and Mutants tend to hide in plain sight, and most are, or were, ordinary members of society. As such, the @UUID[.DpmK2UlAjCnLrMMK]{Peoples of the Reikland} guidelines for creating NPCs provides an alternative starting point.</em></p>\n</blockquote>\n<h3>Daemons, The Gibbering Hosts</h3>\n<p>Daemons are blasphemous horrors from the Realms of Chaos, the unholy will of the Chaos Gods made manifest. In the Reikland, Daemons likely only appear if summoned by Cultists of the Ruinous Powers. Though their presence is unlikely to last for long as the material realm abhors their existence, the havoc they wreak is so profound that none who encounter Daemons ever forget the mind-fracturing experience. </p>\n<p>While most Daemons owe allegiance to one of the four Chaos Gods, some are simple beasts of the Aethyr, possessing no particular will of their own, spilling forth into the Old World in a frenzy of mindless destructiveness whenever they can. Only four samples of Daemons are given here — two Lesser Daemons and two Daemon Princes — but any other Daemon you require can easily be built using Creature </p>\n<div style=\"display:flex;justify-content:space-evenly;flex-wrap:wrap\">\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/bloodletter.webp\" width=\"201\" height=\"247\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.KZkuwdOYmE3nwB2n]{Bloodletter of Khorne}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/daemonetee.webp\" width=\"242\" height=\"307\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.8gG2Wim6wAlJWRax]{Daemonette of Slaanesh}</p>\n</div>\n</div>\n<h3>Daemon Princes</h3>\n<p>The ultimate goal of all champions of Chaos is apotheosis: to ascend to the rank of Daemonhood and serve their master for eternity as a Daemon Prince in the Realms of Chaos. Mighty figures of great power, Daemon Princes are terrible foes that even the greatest heroes of the Empire would balk to face.</p>\n<div style=\"display:flex;justify-content:space-evenly;flex-wrap:wrap\">\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/slenderthigh-whiptongue.webp\" width=\"189\" height=\"189\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.28MwFcDPwpcO12kt]{Slenderthigh Whiptongue}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/tokens/mournbreath.webp\" width=\"211\" height=\"211\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.sbQ5mDvNZ7qQm8YY]{Fr'hough Mournbreath}</p>\n</div>\n</div>\n<h3>The Loathesome Ratmen</h3>\n<p>Skaven are a malevolent species of ratmen living beneath everyone’s feet, watching, waiting, and impatient. They eke out a foul existence in the sewers and tunnels beneath the Empire’s cities and are so rarely seen that those who do usually dismiss them as mere Beastmen or Mutants. Few ever suspect the sinister truth: an Underempire exists right beneath their feet, its tunnels stretching between every city of the Old World and beyond.</p>\n<p>Skaven society is built on the backs of slaves captured from across the Old World. Supporting this, many shady Humans supply slaves and warpstone in exchange for unsavoury favours and secret knowledge: for the Skaven spy network is vast and pervasive.</p>\n<p>Aware of the delicate position they inhabit, feasting on the subterranean entrails of other societies, the Skaven protect their secrets by any means necessary. Those foolish enough to talk openly of a complex civilisation of sentient ratmen beneath the Empire’s cobbled-streets may find themselves dead in a gutter, an unfortunate victim of an unlikely accident.</p>\n<blockquote>\n<p>‘I never seen nothin’. There were no ratmen, you hear? Just bad luck. Wilbur slipped and fell, that’s all. He got careless, fell down a ladder onto his own knife. Ten times. Just bad luck.’</p>\n<p style=\"text-align:right\"><em>– Kristiana Fellger, retired Sewer Jack</em></p>\n</blockquote>\n<div style=\"display:flex;justify-content:space-evenly;flex-wrap:wrap\">\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/clanrat.webp\" width=\"179\" height=\"215\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.F1vAZZcmVKkRw8xn]{Clanrat}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/stormvermin.webp\" width=\"184\" height=\"243\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.kl4qHg0mqWOApBqH]{Stormvermin}</p>\n</div>\n<div style=\"display:flex;flex-direction:column;justify-content:space-evenly;align-items:center\"><img style=\"border:none\" src=\"modules/wfrp4e-core/art/bestiary/rat-ogre.webp\" width=\"199\" height=\"249\" />\n<p style=\"text-align:center\">@UUID[Compendium.wfrp4e-core.actors.VfJgGmCTWqb0IDSW]{Rat Ogre}</p>\n</div>\n</div>",
+        "markdown": ""
+      },
+      "_id": "NS7k4xBGElPSynkI",
+      "image": {},
+      "video": {
+        "volume": 0.5,
+        "controls": true
+      },
+      "src": null,
+      "sort": 800000,
+      "flags": {
+        "core": {}
+      },
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "system": {},
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "sort": 1000000,
+      "name": "Size",
+      "type": "text",
+      "_id": "JY7F6lwqt2YGPddY",
+      "title": {
+        "show": true,
+        "level": 3
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>This trait represents creatures whose size differ from the game standard (i.e. roughly human sized). There are seven steps of Size, ranging from Tiny to Monstrous.</p><div><table style=\"text-align:center\" border=\"1\"><tbody><tr><td><p><span style=\"font-weight:bold\"><strong>Size</strong></span></p></td><td><p><span style=\"font-weight:bold\"><strong> Examples</strong></span></p></td></tr><tr><td><p>Tiny</p></td><td><p>Butterﬂy, Mouse, Pigeon</p></td></tr><tr><td><p>Little</p></td><td><p>Cat, Hawk, Human Baby</p></td></tr><tr><td><p>Small</p></td><td><p>Giant Rat, Halﬂing, Human Child</p></td></tr><tr><td><p>Average</p></td><td><p>Dwarf, Elf, Human</p></td></tr><tr><td><p>Large</p></td><td><p>Horse, Ogre, Troll</p></td></tr><tr><td><p>Enormous</p></td><td><p>Griffon, Wyvern, Manticore</p></td></tr><tr><td><p>Monstrous</p></td><td><p>Dragon, Giant, Greater Daemon</p></td></tr></tbody></table></div><h3>Using Size</h3><p>if you wish to use size to make a creature bigger — for example converting a giant spider to a gigantic spider — then increase Strength and Toughness by +10 and reduce Agility by –5 per step of size you increase the creature. Reverse this if you wish to make a creature smaller </p><h3>Size Combat Modifers</h3><p>If larger:</p><ul><li>Its weapons gain the Damaging Quality if the creature is one step larger, and Impact if two steps or more larger.</li><li>It multiplies any Damage caused by the number of steps larger it is (so, 2 steps=×2, 3 steps =×3, and so on); this multiplication is calculated after all modifiers are applied.</li><li>All successful strikes against smaller targets activate the Deathblow rule, even if the target survives.</li></ul><ul><li><p></p></li></ul><p>If smaller:</p><p>• It gains a bonus of +10 to hit.</p><h3>Defending Against Big Creatures</h3><p>You suffer a penalty of –2 SL for each step larger your opponent is when using Melee to defend an Opposed Test. It is recommended to dodge a Giant swinging a tree, not parry it!</p><h3>Fear and Terror</h3><p>If the creature is perceived to be aggressive, it causes Fear in any creature smaller than it, and Terror in any creature two or more steps smaller. The rating of the Fear or Terror equals the Size step difference. So, if the creature is Large, and its opponent is Small, it will cause Terror 2.</p><h3>Moving in Combat</h3><p>A creature that is larger ignores the need to Disengage if it wishes to leave melee combat; instead, it brushes smaller combatants out of the way, moving where it wishes.</p><h3>Opposed Strength</h3><p>During Opposed Strength Tests (and similar), if one creature is 2 or more size steps larger, it wins automatically. If one creature is 1 size step larger, the smaller creature must roll a Critical to contest the roll. If it does, SL are compared as normal. All other results mean the larger creature wins.</p><h3>Stomp</h3><p>Creatures that are larger than their opponents may make one Stomp as a Free Attack, by spending 1 Advantage, as they kick downwards or otherwise bash smaller opponents out of the way. This attack has a Damage equal to their Strength Bonus +0, and uses Melee(Brawling).</p><div><table style=\"text-align:center\" border=\"1\"><tbody><tr><td><p><span style=\"font-weight:bold\"><strong>Size</strong></span></p></td><td><p><span style=\"font-weight:bold\"><strong>Wounds</strong></span></p></td></tr><tr><td><p>Tiny</p></td><td><p>1</p></td></tr><tr><td><p>Little</p></td><td><p>Toughness Bonus</p></td></tr><tr><td><p>Small</p></td><td><p>(2×Toughness Bonus) + Willpower Bonus</p></td></tr><tr><td><p>Average</p></td><td><p>Strength Bonus+(2×Toughness Bonus) + Willpower Bonus</p></td></tr><tr><td><p>Large</p></td><td><p>(Strength Bonus+(2×Toughness Bonus) + Willpower Bonus) ×2</p></td></tr><tr><td><p>Enormous</p></td><td><p>(Strength Bonus+(2×Toughness Bonus) + Willpower Bonus) ×4</p></td></tr><tr><td><p>Monstrous</p></td><td><p>(Strength Bonus+(2×Toughness Bonus) + Willpower Bonus) ×8</p></td></tr></tbody></table></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "flags": {
+    "wfrp4e-core": {
+      "sort": 1300000,
+      "initialization-folder": "Core Rulebook"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.348",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.1.5",
+    "createdTime": 1757182807614,
+    "modifiedTime": 1757184384962,
+    "lastModifiedBy": "rbZmnErLLwkYOmyj",
+    "exportSource": {
+      "worldId": "aty",
+      "uuid": "JournalEntry.3ZynTGhFpgwv6l1n",
+      "coreVersion": "13.348",
+      "systemId": "wfrp4e",
+      "systemVersion": "9.1.5"
+    }
+  },
+  "folder": "1NP23gRF7NejIzxq",
+  "categories": [],
+  "ownership": {
+    "default": 2
+  }
+}

@@ -1,0 +1,1750 @@
+{
+  "name": "Chaos Warrior",
+  "type": "creature",
+  "img": "modules/wfrp4e-core/art/bestiary/chaos-warrior-nurgle.webp",
+  "items": [
+    {
+      "name": "Armour",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "_id": "CAcGBn8sq62mVUxJ",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "origin": null,
+          "name": "Armour",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Armour",
+                "trigger": "APCalc",
+                "script": "[Script.Vb7rgl8T4VRswbnZ]",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature is protected by armor or thick hide. It has Rating Armor Points on all Hit Locations"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "5"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": false,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 5300000,
+      "_id": "9apgQTnOZF0fEEky",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Mutation",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "name": "Mutation",
+          "_id": "KCvK1MI6OC2RpXma",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Add Mutation",
+                "trigger": "manual",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.0R0QAr3D024kWPfo]",
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>The creature is ‘blessed’ with a Mutation. Roll on the @Table[mutatephys]{Physical Corruption Table}</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": true,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 6300000,
+      "_id": "E7tjLk8wDawQ0NxJ",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Mental Corruption",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "name": "Mental Corruption",
+          "_id": "gh8P4EJqUjx9JGnO",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Add Mental Corruption",
+                "trigger": "manual",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.KICZPwLvbUSxbDrE]",
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>The creature has Chaos on the mind. Roll on the Mental Corruption Table</p>\n<p>@Table[mutatemental]</p>\n<p>@Table[expandedmutatemental] (If EiS module installed)</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": true,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 1700000,
+      "_id": "1asfvtOsiLJAj97r",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Champion",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "name": "Champion",
+          "_id": "5RbsPoPp8aQ6b8ub",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Champion",
+                "trigger": "opposedDefender",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.Lp261O9fgEXmgPf3]",
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature is an extraordinarily skilled warrior. If it wins an Opposed Test when defending in melee combat, it can cause Damage just as if it was the attacker."
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "1d10",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": false,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 800000,
+      "_id": "fBvM3Ws0yi4HoYGr",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Corruption",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "name": "Corruption",
+          "_id": "rNq9moHHK0N4dC3S",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Corruption",
+                "trigger": "manual",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.2AOo7KUyzMrgIlgM]",
+                "async": false
+              },
+              {
+                "label": "Strength Choice",
+                "trigger": "immediate",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.xS2su09zcza9du09]",
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>The creature is tainted by Chaos, or perhaps suffused with Dark Magics. The Strength of the Corruption is marked in brackets (@Corruption[minor]{Minor}, @Corruption[moderate]{Moderate}, or @Corruption[major]{Major}).</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "Minor"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": false,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 7900000,
+      "_id": "ISAlKlZTpzGmmufs",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Weapon",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature carries a melee weapon, or uses teeth, claws, or similar in combat.\n                \n                The weapon causes Damage equal to its Rating which already includes the creature’s Strength Bonus. Typically it will be 4 + its Strength Bonus (representing a Hand Weapon)"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": true,
+          "skill": "",
+          "rollCharacteristic": "ws",
+          "bonusCharacteristic": "s",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "4"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": false,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 1800000,
+      "_id": "sVvAesFMgRJ54cXG",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Belligerent",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature loves to win a fight. As long as it has more Advantage than its opponent, it is Immune to Psychology"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": true,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 2800000,
+      "_id": "Fp5yDryiCmHcvmJa",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Disease",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "name": "Disease",
+          "_id": "AyJdX8fnWv62L4EE",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Disease",
+                "trigger": "immediate",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.RSsGiDFibuqg3sHr]",
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature carries the disease listed. Others will have to Test as appropriate for Contraction"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "Type"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": true,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 4300000,
+      "_id": "8cXaH6eBwDU53ZwZ",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Distracting",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "_id": "et9TgrjWHZYQI7OJ",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "origin": null,
+          "name": "Distracting",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "aura",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "equipTransfer": false,
+              "filter": "return [\"NAME.Undead\", \"NAME.Construct\", \"Ethereal\", \"NAME.Daemonic\"].map(i => game.i18n.localize(i)).some(i => args.has(i))",
+              "prompt": false,
+              "area": {
+                "radius": "@actor.system.characteristics.t.bonus",
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Distracting",
+                "trigger": "dialog",
+                "script": "[Script.0iTLDgFHO9Rgc010]",
+                "options": {
+                  "activateScript": "[Script.AZGXrZOQ4EzjxRL9]",
+                  "hideScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature distracts or confuse foes, possibly exuding a soporific musk or nauseating reek, or maybe its appearance is bizarrely horrifying. All living targets within a number of yards equal to its Toughness Bonus suffer a penalty of –20 to all Tests. A target can only suffer this penalty once, no matter how many Distracting foes there are."
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": true,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 3900000,
+      "_id": "e9fI6pmDjlTEn7tU",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Frenzy",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "_id": "ydTMvbmqv6BZ4u6d",
+          "flags": {
+            "wfrp4e": {
+              "hide": false,
+              "applicationData": {},
+              "scriptData": [],
+              "_legacyData": {}
+            },
+            "core": {}
+          },
+          "changes": [],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "origin": null,
+          "name": "Frenzy",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.1.5",
+            "lastModifiedBy": null
+          },
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "duration": "sustained"
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Frenzy",
+                "trigger": "computeCharacteristics",
+                "script": "[Script.91S2GnBFYFbxmOCK]",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "async": false
+              },
+              {
+                "label": "Disable",
+                "trigger": "update",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.OeKeQAAcJhdI4Qky]",
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "sort": 0
+        }
+      ],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>With a Willpower Test, you can work yourself into a state of frenzy by psyching yourself up, howling, biting your shield, or similar. If you succeed, you become subject to Frenzy.</p>\n<p>While subject to Frenzy</p>\n<ul>\n<li>You are immune to all other psychology, and will not ﬂee or retreat for any reason;</li>\n<li>Indeed you must always move at full rate towards the closest enemy you can see in order to attack.</li>\n<li>Generally, the only Action you may take is a Weapon Skill Test or an Athletics Test to reach an enemy more quickly.</li>\n<li>Further, you may take a Free Action Melee Test each Round as you are throwing everything you have into your attacks.</li>\n<li>Lastly, you gain a bonus of +1 Strength Bonus, such is your ferocity.</li>\n</ul>\n<p>You remain in Frenzy until all enemies in your line of sight are pacified, or you receive the&nbsp;<em>@Condition[Stunned]</em>&nbsp;or&nbsp;<em>@Condition[Unconscious]</em>&nbsp;condition. After your Frenzy is over you immediately receive a&nbsp;<em>@Condition[Fatigued]</em>&nbsp;condition.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": false,
+          "skill": "",
+          "rollCharacteristic": "wp",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": true,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 8000000,
+      "_id": "tfS2IqRqVndOgGjv",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Spellcaster",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "The creature can cast spells; the specific Lore of Magic will be indicated in brackets."
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "Chaos"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "disabled": true,
+        "category": "standard"
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "folder": "LjyFyBwUbRxLvkuI",
+      "sort": 7400000,
+      "_id": "pkG19GQLxPQvo9Ip",
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "autoCalcRun": {},
+    "autoCalcWalk": {},
+    "autoCalcWounds": {},
+    "autoCalcCritW": {},
+    "autoCalcCorruption": {},
+    "autoCalcEnc": {},
+    "talentTests": {},
+    "combatSkills": {},
+    "defensive": {},
+    "modifier": {},
+    "_sheetTab": {},
+    "autoCalcSize": {},
+    "meleeDamageIncrease": {},
+    "rangedDamageIncrease": {},
+    "robust": {},
+    "ambi": {},
+    "resolute": {},
+    "eqpPoints": {},
+    "core": {}
+  },
+  "system": {
+    "characteristics": {
+      "ws": {
+        "initial": 55,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "bs": {
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "s": {
+        "initial": 45,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "t": {
+        "initial": 45,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "i": {
+        "initial": 45,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "ag": {
+        "initial": 55,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "dex": {
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "int": {
+        "initial": 35,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "wp": {
+        "initial": 55,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "fel": {
+        "initial": 25,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      }
+    },
+    "status": {
+      "wounds": {
+        "value": 17,
+        "max": 17
+      },
+      "advantage": {
+        "value": 0,
+        "max": 10
+      },
+      "criticalWounds": {
+        "value": 0,
+        "max": 4
+      },
+      "sin": {
+        "value": 0
+      },
+      "corruption": {
+        "value": 0,
+        "max": 0
+      },
+      "encumbrance": {
+        "max": 8,
+        "current": 0
+      },
+      "mount": {
+        "id": "",
+        "mounted": false,
+        "isToken": false,
+        "tokenData": {
+          "scene": "",
+          "token": ""
+        }
+      },
+      "ward": {
+        "value": 0
+      }
+    },
+    "details": {
+      "species": {
+        "value": "???",
+        "subspecies": ""
+      },
+      "gender": {
+        "value": "???"
+      },
+      "biography": {
+        "value": "<section id=\"secret-UmFQtYU7axewKKpu\" class=\"secret\"><blockquote><p>‘In the dreaded north lies the greatest danger. It is the product of another place, another time, released upon us by the misfortune and mistake of long-dead gods. It hungrily grasps for our world, quivering with expectation, sending forth hordes of the most warlike and jealous people of them all: our own kin, the tribes of Man.’</p><p style=\"text-align: right;\"><em>— Phitzer, Wissenlander Witch</em></p></blockquote><p>Heavily armoured hulking brutes adorned with ornate spikes and eye-watering symbols of their gods, Chaos Warriors are clearly no longer Human. Nothing is left of their former lives, they exist to serve their dark patron and nothing more. While most Chaos Warriors are exalted marauders from lands far to the north, a select few cultists may be gifted a prize of Chaos Armour by the Dark Gods, affording them great power at the cost of never removing the armour for as long as they live. As few warriors are their better, and no knight better protected, their lives are often very long indeed.</p></section>"
+      },
+      "gmnotes": {
+        "value": ""
+      },
+      "size": {
+        "value": "avg"
+      },
+      "move": {
+        "value": 4,
+        "walk": "8",
+        "run": "16"
+      },
+      "god": {
+        "value": ""
+      },
+      "status": {
+        "value": "",
+        "standing": "",
+        "tier": 0,
+        "modifier": 0
+      },
+      "hitLocationTable": {
+        "value": "hitloc"
+      },
+      "age": {},
+      "height": {},
+      "weight": {},
+      "haircolour": {},
+      "eyecolour": {},
+      "distinguishingmark": {},
+      "mainHand": "r"
+    },
+    "excludedTraits": [
+      "Fp5yDryiCmHcvmJa",
+      "8cXaH6eBwDU53ZwZ",
+      "e9fI6pmDjlTEn7tU",
+      "tfS2IqRqVndOgGjv",
+      "mXMGGmG4iX6ZhFCA",
+      "pkG19GQLxPQvo9Ip",
+      "sToGiATQxQhXm8hF",
+      "E7tjLk8wDawQ0NxJ",
+      "1asfvtOsiLJAj97r"
+    ],
+    "settings": {
+      "equipPoints": 2,
+      "autoCalc": {
+        "run": true,
+        "walk": true,
+        "wounds": true,
+        "criticals": true,
+        "corruption": true,
+        "encumbrance": true,
+        "size": true
+      }
+    }
+  },
+  "prototypeToken": {
+    "flags": {},
+    "name": "Chaos Warrior",
+    "displayName": 20,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "actorLink": false,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "status.wounds"
+    },
+    "bar2": {
+      "attribute": "status.advantage"
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/wfrp4e-core/tokens/popout/chaos-warrior.webp",
+      "tint": "#ffffff",
+      "scaleX": 2,
+      "scaleY": 2,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "appendNumber": false,
+    "prependAdjective": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "_stats": {
+    "coreVersion": "13.348",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.1.5",
+    "createdTime": 1757182821962,
+    "modifiedTime": 1757182821962,
+    "lastModifiedBy": "rbZmnErLLwkYOmyj",
+    "exportSource": {
+      "worldId": "aty",
+      "uuid": "Actor.a05lQsGjSv62wF0U",
+      "coreVersion": "13.348",
+      "systemId": "wfrp4e",
+      "systemVersion": "9.1.5"
+    }
+  },
+  "folder": "jbBnFElHNJcDbT7G",
+  "ownership": {
+    "default": 0
+  }
+}

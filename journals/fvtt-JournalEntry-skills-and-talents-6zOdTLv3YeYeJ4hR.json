@@ -1,0 +1,1719 @@
+{
+  "name": "Skills and Talents",
+  "flags": {
+    "wfrp4e": {
+      "initialization-folder": "Rules"
+    },
+    "wfrp4e-core": {
+      "initialization-folder": "Core Rulebook",
+      "sort": 500000
+    },
+    "core": {}
+  },
+  "pages": [
+    {
+      "name": "Skills",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<p>Where Characteristics represent the raw potential of your body and mind, Skills represent specific areas of training, knowledge, experience. Each Advance you take in a Skill improves the odds of succeeding with appropriate tasks — Characters who are well trained or experienced may be able to best opponents who are more naturally gifted.</p><h3>Determining your Skill Level</h3><p>All Skills are associated with a single Characteristic, noted in the Skill’s description. A Skill’s rating is determined by taking its associated Characteristic and adding the number of Advances taken in the Skill. Space for recording your Advances for each Skill is provided on your Character Sheet.</p><p><strong>Example</strong>: <em>Sigrid has a Fellowship of 41 and has taken 5 Advances in Charm, so her Charm is 46 (41+5=46).</em></p><h3>Basic and Advanced Skills</h3><p>Skills are classified as either <em>Basic </em>or <em>Advanced </em>.</p><p>Basic Skills represent innate or common abilities that you might practice in day-to-day life. Basic Skills can be Tested even if you have taken no Advances in them. To do this, simply attempt a Test using the Characteristic associated with the Skill as described in @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.lQThXbnpgQ30VBXR]{Rules}.</p><p><strong>Example</strong>: <em>Sigrid has no Advances in Athletics. However, as Athletics is a Basic Skill, she can still Test Athletics using the Characteristic associated with it: Agility.</em></p><p>Advanced Skills require specialist knowledge, training, or first-hand experience to even attempt to use. You may only Test an Advanced Skill if you have taken at least one Advance in it. If you have not, you cannot attempt to Test the Skill. So, no matter how intelligent you are, you will not understand the finer points of law without the Lore (Law) Skill.</p><p><strong>Example</strong>: <em>Adhemar has an Intelligence of 36 and no Advances in either the Basic Gamble Skill or the Advanced Heal Skill, both based on Intelligence. He can Test the Gamble Skill at 36% as it is Basic, and anyone can Test Basic Skills. The Heal Skill is an Advanced Skill, so Adhemar has no idea how to patch up wounds beyond screaming loudly for a doctor!</em></p><h3>Grouped Skills and Specialisation</h3><p>Some Skills are classified as Grouped . This means the Skill is an array of related Skills under one heading. Each related Skill is called a Specialisation . When a Specialisation is mentioned in the rules, it is marked in brackets.</p><p><strong>Example</strong>: <em>Language is a Grouped Skill, thus represents many related Language Skills under a single Skill heading. Examples of the different Specialisations of Language are: Language (Bretonnian), Language (Magick), or Language (Mootish).</em></p><p>When you gain an Advance in a Grouped Skill, you must allocate the Advance to an appropriate Specialisation. Sometimes the Specialisation options will be marked clearly in your Career, so you simply select one of the options on offer. In other cases — such as when a Specialisation is marked as ‘Any’, meaning you can choose one Specialisation — you will need to select a Specialisation yourself; should this be required, either refer to the relevant Skill description and choose from the sample Specialisations found there, or, with GM permission, create a unique Specialisation that fits the Skill and best suits your character. </p><p><strong>Example</strong>: <em>Theodora has a choice of Lore (Any) in her career. When she allocates an Advance to that option, she has to decide which Lore Specialisation to take. After some deliberation, she chooses to advance her Lore (Theology), showing she has learned something of the Gods.</em></p><p>Other than that, Grouped Skills are handled in exactly the same way as normal Skills, with each Specialisation handled like a unique Skill.</p><p><strong>Example</strong>: <em>Sigrid has 8 Advances in the Basic Skill, Entertain (Singing), but nothing in Entertain (Acting). This means she Tests her Fellowship of 41 when attempting to act, and Tests 49 when singing (41+8=49). By comparison, Theodora has a single Advance in the Advanced Skill Animal Training (Pigeons), but no Advances in Animal Training (Horses). This means she can use the Skill to train her pigeons to drop bombs on unsuspecting enemies, but she cannot train her horse to do the same, as she has no idea how to train horses.</em></p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>COMBAT</em></h3><p><em>Many Skills might also have some application in combat; suggestions for how to do this are marked in each relevant Skill entry. These are not intended to be exhaustive, and if you have some inspired improvisation in mind, talk it through with your GM.</em></p></blockquote>",
+        "markdown": ""
+      },
+      "_id": "QuybQPVJGWCmzGm3",
+      "image": {},
+      "video": {
+        "volume": 0.5,
+        "controls": true
+      },
+      "src": null,
+      "sort": 200000,
+      "flags": {
+        "core": {}
+      },
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "system": {},
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Skills and Talents",
+      "type": "text",
+      "_id": "fOpVskf9YZDSkYqL",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>‘Sure, playing Scarlet Empress is 90% luck and 10% skill. But try playing without that 10%, and you’ll lose every time.’</em></p><p style=\"text-align:right\">– Hermann Graumann, Gambler, Raconteur and Liar</p><p>During the game, you’ll find yourself in all sorts of situations where the outcome your Character’s action is uncertain. Will you jump the ravine or plunge to your death? Will you charm the officious courtier, or will the guards be summoned to deal with you? How well you perform these actions is determined by your Skills and Talents. In general, Skills describe the capabilities of your Character, and Talents are special abilities or tricks you’ve learned. If you want to know how they all work in practice, refer to @UUID[JournalEntry.NS3YGlJQxwTggjRX]{Rules}.</p><p>@UUID[.QuybQPVJGWCmzGm3]{Skills}</p><p>@UUID[.hJPYQVrvjBzjCNyi]{Talents}</p><div class=\"journal-image\"><img class=\"fit\" src=\"modules/wfrp4e-core/art/other/chaos-warrior.webp\" /></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Animal Care",
+      "type": "text",
+      "_id": "QZx9CbhGkIaDMQD3",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Int) </strong><em><strong>advanced</strong></em></p><p>The Animal Care Skill lets you tend and care for animals, and heal them should they fall sick or become wounded.</p><p>Having a single Advance in Animal Care means you can keep animals healthy without needing to Test. You can also enact an Animal Care Test to identify and resolve problems with animals, such as:</p><ul><li><p>Spotting an illness.</p></li><li><p>Understanding reasons for fractiousness or discomfort.</p></li><li><p>Determining the quality of the animal.</p></li><li><p>Heal Intelligence Bonus + SL Wounds (Note: an animal can only benefit from one healing roll after each encounter).</p></li><li><p>Staunching a Bleeding condition.</p></li><li><p>Preparing the animal for display.</p></li></ul><p>In combat, you may appraise an enemy animal with an Animal Care Test. If successful, you and all you inform gain +10 to hit when attacking that animal — or anyone using it as a mount — until the end of your next turn, as you point out loose tack, a limp from a niggling wound, or highlight some other weakness or vulnerability. Animal Care may only provide a maximum of +10 to hit per animal, no matter how many Tests are made to spot weaknesses.</p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>ANIMALS</em></h3><p><em>Whether a creature does, or does not come under the auspices of Animal Care and Animal Training is up to your GM. While certain creatures — @UUID[Compendium.wfrp4e-core.actors.R1iWvfV9EvgIc8bJ]{Dog}, @UUID[Compendium.wfrp4e-core.actors.b1R5sW6lYIViJ2ki]{Horse}, @UUID[Compendium.wfrp4e-core.actors.MLtDY4bwzGQpaABN]{Demigryph} — seem obvious, others are less so. You may argue that @UUID[Compendium.wfrp4e-core.actors.LZttdCIxmFr1sGsS]{Dragon} should be covered under Animal Training, but try telling that to the Dragon…</em></p></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Animal Training",
+      "type": "text",
+      "_id": "vbOc3JVfG2nfK1P0",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Int) </strong><em><strong>advanced, grouped</strong></em></p><p>Animal Training represents your understanding of a particular type of animal, and your ability to train them. A successful use of the Skill allows you to identify the Trained abilities possessed by an animal belonging to your @UUID[.QuybQPVJGWCmzGm3#grouped-skills-and-specialisation]{Specialisation}. The Animal Training Skill also allows you to undertake the @UUID[JournalEntry.gLDW6JBuoYuzCoya.JournalEntryPage.WQQk92GoGp7fRH89]{Animal Training} Endeavour between adventures.</p><p>In combat, a successful <strong>Opposed Animal Training/Willpower Test</strong> allows you to intimidate a single animal belonging to your Specialisation; you cause @UUID[Compendium.wfrp4e-core.items.Ib2YQYChktDFN93y]{Fear} in the animal targeted until the end of your next turn. When causing Fear in this way, you may subsequently use your Animal Training Skill instead of Melee when defending against your target; with your GM’s approval you may also use Animal Training to attack your target, issuing specific commands.</p><p><strong>Example</strong>: <em>Facing a slavering war-hound, Ilse passes an Opposed Animal Training (Dog) roll, in the first round of combat, causing Fear in the beast, and gaining +1 Advantage. In the next round she ‘attacks’ her target with her Animal Training Skill, beating the dog’s defence. Her GM allows her to instruct the beast to flee, which it does, its tail between its legs.</em></p><p><strong>Specialisations</strong>: Demigryph, Dog, Horse, Pegasus, Pigeon</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 500000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Art",
+      "type": "text",
+      "_id": "tVSESlQWIl8QjK6y",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Dex) </strong><em><strong>basic, grouped</strong></em></p><p>Create works of art in your chosen medium.</p><p>Not having access to appropriate Trade Tools will incur a penalty to your Test. The SL achieved determines the quality of the final piece. For complicated or large works of art, an Extended Test may be required. The Art Skill has little use in combat, but marble busts make marvellous improvised weapons.</p><p><strong>Example</strong>: <em>Irina has been commissioned to paint a portrait of a local noble, whose favour her party is currying. Her GM determines this requires a total of 10 SL in an Extended Art Test, with each Test representing a week’s work.</em></p><p><strong>Specialisations</strong>: Cartography, Engraving, Mosaics, Painting, Sculpture, Tattoo, Weaving</p><div class=\"journal-image\"><img class=\"fit\" src=\"modules/wfrp4e-core/art/other/blacksmith.webp\" /></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 600000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Athletics",
+      "type": "text",
+      "_id": "Ss6Gp732GjscYke0",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Ag) </strong><em><strong>basic</strong></em></p><p>Your ability to run, jump and move with speed or grace, and to perform any general physical activity. Refer to @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.bdfiyhEYtKs7irqc]{Moving} for details on using Athletics in combat movement.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 700000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Bribery",
+      "type": "text",
+      "_id": "IwGXgEPOkNVZ0SwI",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Fel) </strong><em><strong>basic</strong></em></p><p>Your ability to judge how likely a person is to accept a bribe, and how best to offer the bribe so they will accept it.</p><p>A successful <strong>Bribery Test</strong> tells you if a target may be bribed. If so, your GM will secretly determine the price of their cooperation using the target’s @UUID[JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.R7RQ4hfivLrG0XaF#earning-money-with-status]{Earnings}, increasing the amount according to their usual honesty and the risk involved in taking the bribe. You then guess that target amount and the GM will tell you if the price is higher, lower, or equal. Each SL from your initial Bribery Test gives you another guess. At the end of this process, you determine how much money to offer, based on what you have gleaned.</p><p><strong>Example</strong>: <em>Snorri is trying to bribe his way past a city watchman; a character of the Brass Tier 2, meaning they roll 4d10 Brass for Income. The GM decides the guard can be bribed and secretly rolls 21 on the 4d10, meaning the price for bribing the guard is 21 Brass. Letting Snorri through isn’t too risky for the watchman, and he does it often, so the GM doesn’t increase the bribe required. Snorri rolls 1 SL on his Bribery Test; so, he knows the watchman is open to a bribe, and has 2 guesses as to his price. Snorri’s first guess is 15 Brass, to which his GM replies ‘higher’. His second guess is 40, to which his GM replies ‘lower’. Snorri now knows he must bribe the watchman between 15 and 40 Brass, so decides to aim high, and offers 30. Smiling, the watchman waves Snorri through.</em></p><p>In combat, you may use Bribery as above to try to stop the fight, but treat the Test as Hard (–20) owing to the stress of the situation. If your target is not susceptible, you cannot afford the fee, or your foes do not speak your tongue, your pathetic attempts to buy them off will be doomed to fail. Of course, if they have the advantage of numbers, what’s to prevent them from taking all of your money?</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 800000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Channelling",
+      "type": "text",
+      "_id": "tXu8Hrd4desq1Rja",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(WP) </strong><em><strong>advanced, grouped</strong></em></p><p>The Channelling Skill measures your ability to call upon and control the various Winds of Magic, and is solely used by the magic rules. Channelling is a special skill in that it is both Grouped, allowing for Specialisations, and also ungrouped, for those not properly trained to channel magic. See @UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.BU7yhLmMdEyvbfkR#channelling]{Magic} for details concerning this.</p><p><strong>Specialisations</strong>: Aqshy, Azyr, Chamon, Dhar, Ghur, Ghyran, Hysh, Shyish, Ulgu (each is a different Wind of Magic, see Chapter 8: Magic for more on this).</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 900000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Charm",
+      "type": "text",
+      "_id": "9OommpqxE34iocmg",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Fel) </strong><em><strong>basic</strong></em></p><p>Charm makes people think favourably of you, your opinions, and proposed actions. Passing an Opposed Charm/Cool Test allows you to influence the behaviour of one or more targets, up to a maximum number equal to your Fellowship Bonus + SL, affecting those with the lowest Willpower first. If a target is amenable to your Charm, the Test will be uncontested.</p><p>Your GM may permit you to use Charm in Combat if they think your foes might be susceptible to you pleading for your life or making persuasive arguments to stop the violence (although good luck charming a Goblin)!</p><p>If you use Charm as your Action, calculate the number of targets affected as normal. If you use it to defend, you only affect your attacker. If you succeed, any affected targets will not attack you this round and you gain +1 Advantage as normal. You may do this in successive rounds until you choose to stop or fail a Charm Test, after which your words carry no more weight.</p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>PUBLIC SPEAKING</em></h3><p><em>The Charm Skill can be used to make impressive speeches to sway multiple targets to your way of thinking. Assuming they can hear you and are inclined to listen, you can influence up to your Fellowship Bonus + SL targets with a single Charm Test, influencing targets with the lowest Willpower first. If the crowd is unruly, or not receptive to your words, the Test is Opposed by the crowd’s average Willpower (typically 35). A failure shows the crowd is unconvinced.</em></p><p><em>The @UUID[Compendium.wfrp4e-core.items.XU7D9CCmumuhqDUi]{Public Speaking} and @UUID[Compendium.wfrp4e-core.items.ZWcTbeK8i9vKph2a]{Master Orator} Talents can significantly increase the number of people you affect with public speaking. An Astounding Failure (-6) (see @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.lQThXbnpgQ30VBXR#dramatic-tests]{Dramatic Tests}) in a Charm Test means your crowd quickly becomes an angry mob, with you as the target of their ire…</em></p><h3 class=\"no-toc\" style=\"text-align:center\"><em>BEGGING</em></h3><p><em>The Charm Skill can be used to beg on the streets. A successful Test will scrounge Fellowship Bonus × SL brass pennies per hour from passers-by, with the Difficulty modified by the pitch chosen for begging, and how much sympathy your appearance can elicit. If you score no SL, but still pass the Skill Test, you only manage to scrounge a single pfennig. An Astounding Failure (-6) means you may have attracted problems from the local Watchmen, found some trouble with other, local beggars, or suffer some other significant set-back.</em></p><p><em>Note: characters who are caught begging by their peers or associates will likely lose Status unless they are already in the Beggar, or in some other destitute, career.</em></p></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1000000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Charm Animal",
+      "type": "text",
+      "_id": "1N6sOXgrqF1KkIh0",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(WP) </strong><em><strong>basic</strong></em></p><p>Your aptitude for befriending, quickly calming, or subjugating animals.</p><p>Passing a Charm Animal Test allows you to influence the behaviour of one or more animals, to a maximum of Willpower Bonus + SL. If the target animals are naturally docile, this Test may be uncontested, but it will generally be Opposed by the target’s Willpower.</p><p>In combat, you may use Charm Animal when facing animals. If you succeed, any affected targets will not attack you this Round and you gain +1 Advantage. You may do this in successive rounds until you choose to stop or fail a Charm Test, after which the creature’s instincts take over and you have no further influence.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1100000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Climb",
+      "type": "text",
+      "_id": "yOONKSIBrg4FOl20",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(S) </strong><em><strong>basic</strong></em></p><p>The ability to ascend steep or vertical surfaces.</p><p>If time isn’t an issue, and a climb is relatively easy, anyone with Climb Skill is automatically assumed to be able to climb any reasonably small height.</p><p>For any other climbing, refer to @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.bdfiyhEYtKs7irqc#climbing]{Moving During Combat}, which also handles Climbing during combat. You may even find yourself climbing large opponents, though whether that is prudent is debatable.</p><p> </p><div class=\"journal-image centered\"><img src=\"modules/wfrp4e-core/art/other/tower.webp\" width=\"298\" height=\"386\" /></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1200000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Consume Alcohol",
+      "type": "text",
+      "_id": "38Ux3mEWYuQ4heIT",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(T) </strong><em><strong>basic</strong></em></p><p>Your ability to handle alcohol without letting it cloud your judgment or render you senseless.</p><p>After each alcoholic drink make a Consume Alcohol Test, modified by the strength of the drink. For each Test you fail, you suffer a –10 penalty to WS, BS, Ag, Dex, and Int, to a maximum of –30 per Characteristic. After you fail a number of Tests equal to your Toughness Bonus, you are Stinking Drunk. Roll on the following table to see what happens:</p><p>@Table[stinking-drunk]</p><p>After not drinking for an hour, enact a <strong>Challenging (+0) Consume Alcohol</strong> Test. The effects of being drunk will wear off after 10–SL hours, with any Characteristic modifiers for being drunk lost over that time. After all effects wear off, enact another <strong>Challenging (+0) Consume Alcohol</strong> Test. You now gain a hangover, which is an @Condition[Fatigued] Condition that cannot be removed for 5–SL hours.</p><p>You may expend 1 Resolve point to ignore the negative modifiers of being drunk until the end of the next round (see @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.pa22HaRw1OBBQaDg#spending-resolve]{Spending Resolve}).</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1300000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Cool",
+      "type": "text",
+      "_id": "m14pGtefJzDYhgzW",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(WP) </strong><em><strong>basic</strong></em></p><p>Cool allows you to remain calm under stress, resist fear when faced with horror, and stick to your convictions.</p><p>Cool is generally used to resist other Skills — Charm, Intimidate, and similar — but you may also be required to make a Cool Test when faced with anything forcing you to do something you would rather not. Cool is also the primary Skill used to limit @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.5w5YLPNd6AaU4f85]{Psychology}.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1400000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Dodge",
+      "type": "text",
+      "_id": "dPpyiMhPwVGJnJrv",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Ag) </strong><em><strong>basic</strong></em></p><p>Dodge is your ability to avoid things, through ducking, diving, and moving quickly, and is used extensively to sidestep falling rocks, incoming weapons, unexpected traps, and the like.</p><p>In combat, Dodge is generally used to resist attacks or avoid damage. Refer to @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.wmA76Q2zJJ9HrkvA]{Rules} for more on this.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1500000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Drive",
+      "type": "text",
+      "_id": "uLPWAFSfT5Vf1zZl",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Ag) </strong><em><strong>basic</strong></em></p><p>Drive lets you guide vehicles — most commonly simple carts and lumbering coaches, not to mention the more ‘experimental’ creations of the Imperial Engineers — along the roads of the Empire with as little incident as possible.</p><p>Under normal circumstances, if you possess the Drive Skill, there is no need to Test. If conditions are less than ideal — perhaps the road is in poor condition, or the weather is terrible — a Drive Test will be required. If you do not possess the Drive Skill, you may be required to make a Test to carry out even basic manoeuvres. An Astounding Failure (-6) on a Drive Test means something bad has happened. Roll on the following table:</p><p>@Table[drive-failure]</p><p><strong>Crashing</strong>: Occupants of Crashing vehicles usually suffer [[/r 2d10 # Wounds]] Wounds modified by Toughness Bonus and Armour Points unless the vehicle was moving slowly (as determined by the GM). Crashed vehicles must be repaired by someone with an appropriate Trade Skill, such as Trade (Carpenter) or Trade (Cartwright). Spare wheels can be installed by anyone with a Drive Test or with an appropriate Trade Test.</p><p>In combat, Drive may be used if circumstances allow — for instance, if the party is in a coach being raided by outlaws, and you wish to ram an enemy, or outrun them (see @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.bdfiyhEYtKs7irqc#moving-during-combat]{Moving During Combat}).</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1600000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Endurance",
+      "type": "text",
+      "_id": "E9UyI8AMrBqgCX4a",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(T) </strong><em><strong>basic</strong></em></p><p>The Endurance Skill is called upon when you must endure hardship, withstand deprivation, sit without moving for long periods of time, or survive harsh environments. In particular, Endurance is Tested to resist or recover from various @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.SjuV1vgbgM49pFpP]{Conditions} and helps you recover lost Wounds. Refer to @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#healing-wounds]{Rules} for more on this.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1700000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Entertain",
+      "type": "text",
+      "_id": "hrCbYa4b2iKPgBui",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Fel) </strong><em><strong>basic, grouped</strong></em></p><p>Allows you to delight crowds with the spoken word, perhaps by singing, acting, or attempting a few jokes. A successful use of the Entertain Skill means you have entertained patrons near enough to hear you; the SL indicates how well you have done.</p><p>In combat, it is unlikely that Entertain will be of much use, although you may come up with an interesting way to use Entertain (Acting) to confuse or mislead your opponents.</p><p><strong>Specialisations</strong>: Acting, Comedy, Singing, Storytelling</p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>THE OLD WORLD’S A STAGE…</em></h3><p><em>While there is some overlap between the Skills of Entertain, Perform, and Play, each reflects a distinct group of Skills.</em></p><p><em>Entertain is a Basic Skill using Fellowship. It represents those Skills of entertainment that anyone can attempt, even without training, such as singing or telling stories.</em></p><p><em>@UUID[.6MQIGorN3WgXWfJB]{Perform} is an Advanced Skill using Agility. Perform Specialisations require training to attempt, and rely on physical speed and coordination.</em></p><p><em>@UUID[.N63wZOWw6ZLYnePN]{Play} is also an Advanced Skill, this time using Dexterity. It represents training in specific musical instruments, all of which need teaching and practice to perform well.</em></p><p><em>You should choose carefully when determining whether your chosen Specialisation belongs to Entertain, Perform, or Play; consider how the character will physically enact the Skill, and whether an untrained beginner could do so with any success. After all, someone without any musical training could feasibly sing beautifully, but hand them a set of bagpipes…</em></p></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1800000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Evaluate",
+      "type": "text",
+      "_id": "NtJ85TY8yY3WOGHN",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Int) </strong><em><strong>advanced</strong></em></p><p>Lets you determine the value of rare artefacts, unusual trade goods, and works of art. Everybody is assumed to know the relative worth of general items, but a successful use of the Evaluate allows you to identify the value of curious and unique items. A successful Evaluate Test may also alert you if the goods (or coins) you are studying are counterfeit — this Test will usually be Opposed by the forger’s SL on their Art or Trade Test. Your GM may apply modifiers based on just how rare or obscure the item is, or on your character’s particular expertise or background.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1900000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Gamble",
+      "type": "text",
+      "_id": "JVBD7pcdOPJ4nCjq",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Int) </strong><em><strong>basic</strong></em></p><p>Allows you to measure the likelihood that a bet will pay off, as well as successfully engage in various games of chance.</p><p>To represent a gambling match, all players make a Gamble Test — applying any appropriate modifiers for familiarity with the game — and the player with the highest SL wins. On a tie, any lower scoring players drop out, and those remaining enact another Gamble Test, repeating this process until you have a winner.</p><p>If you wish to influence the game through less honest mechanics, see Sleight of Hand.</p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>OPTIONS</em></h3><p><em>Some players prefer to use immersive mini-games at the table, playing real card or dice games to aid the roleplaying experience. If you do this, a successful Gamble Test will allow you to influence the game once — by drawing an extra card, or rerolling a die for example — as the GM dictates. Each SL affords you another opportunity to influence the game.</em></p></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2000000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Gossip",
+      "type": "text",
+      "_id": "ns3PDbblIFcwqyQi",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Fel) </strong><em><strong>basic</strong></em></p><p>You can quickly ferret out interesting and useful news, and spread rumours of your own. A successful Gossip Test means you have found out one useful piece of information, which your GM can impart to you, about the local area. Each SL either offers you an additional piece of information, or the chance to spread a rumour to a number of individuals equal to your Fellowship Bonus. The time required for a Gossip Test depends on how circumspect the players are being, and how busy the area is, as determined by the GM.</p><p>It is unlikely that Gossip will be much use in combat, but if your attacker happens to be local, and you happen to know something really juicy…</p><blockquote class=\"sidebar\"><h3 style=\"text-align:center\" class=\"no-toc\"><em>HALF-HEARD WHISPERS</em></h3><p><em>While it may be expedient for GMs to quickly share information gleaned from Gossip Tests to all players at once, it is often more fun to share the information only with individual players (either through a note, or through briefly taking them aside). This means the players must relate this information to one another in-character — aiding the immersive roleplaying experience — which allows for mistakes and misunderstandings, sometimes leading to hilarious, or horrific, results.</em></p></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2100000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Haggle",
+      "type": "text",
+      "_id": "qSSRHdEK5P7VRmKW",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Fel) </strong><em><strong>basic</strong></em></p><p>Haggle allows you to secure better deals when negotiating with others. In general, Haggle is used to see whether you do, or do not, make a good deal, most commonly with an <strong>Opposed Haggle</strong> Test. Specifically, it can be used when shopping to secure better prices. For information on this, refer to <strong>Chapter 11: Consumers’ Guide</strong>.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2200000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Heal",
+      "type": "text",
+      "_id": "dSf8QWBvN6mlpHBF",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Int) </strong><em><strong>advanced</strong></em></p><p>You’ve been trained to deal with injuries and diseases. A successful Heal Test allows you to do one of the following:</p><ul><li><p>Diagnose an illness, infection, or disease.</p></li><li><p>Treat a @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.9ktDn8cwZj3KZWCH]{disease}.</p></li><li><p>Heal wounds equal to your Intelligence Bonus + SL (Note: a patient can only benefit from one Heal roll after each encounter). If sterile liquids or appropriate poultices and dressings are used, no Infection will develop from the injury (see @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#healing]{Healing}).</p></li><li><p>Staunch a @Condition[Bleeding] Condition, with each SL removing an extra @Condition[Bleeding] Condition.</p></li></ul><p>A Failed Heal Test can potentially cause Wounds if your Intelligence Bonus + SL totals less than 0. On an Astounding Failure, your patient will also contract a @UUID[Compendium.wfrp4e-core.items.1hQuVFZt9QnnbWzg]{Minor Infection}.</p><p>If administering to someone who has a disease, a successful Heal Test ensures that you do not contract the disease for that day. Each SL also prevents one other character encountering the patient that day from catching the disease. For each full day the patient spends resting under your care, the duration of the disease is reduced by one, to a minimum of one. For more information see @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.9ktDn8cwZj3KZWCH]{Disease and Infection}.</p><p>Certain injuries require Surgery; see the @UUID[Compendium.wfrp4e-core.items.NP4EHyyh1yOLbsPU]{Surgery} Talent for details. For more information on healing wounds, refer to @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4]{Injury}.</p><p>Your GM may apply modifiers to Heal Tests to reflect the virulence of the disease, the suitability of conditions and materials, or the stress of your circumstances. If healing during combat, Tests will likely be <strong>Challenging (+0)</strong> at the very least.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2300000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Intimidate",
+      "type": "text",
+      "_id": "mDs8HUZopZAb1fH0",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(S) </strong><em><strong>basic</strong></em></p><p>Allows you to coerce or frighten sentient creatures. The precise manner of initiating an Intimidate Test depends on context: while it is generally accompanied by an overt threat, sometimes a subtle implication or even a look is enough. Intimidate is almost always Opposed by your target’s Cool Skill; if successful, you can intimidate a number of targets up to your Strength Bonus + SL. Each will react to Intimidate based on their individual personalities and how successful you were in menacing them, but in all cases, they will back down or move out of the way and will not speak out against you, or they will alternatively accept combat is the only way forward and prepare their weapons.</p><p>In combat, you cause @UUID[Compendium.wfrp4e-core.items.Ib2YQYChktDFN93y]{Fear} in all Intimidated targets. You may also use your Intimidate Skill instead of Melee when defending against those afraid of you, causing the Intimidated parties to back away from the fight with your will and posture alone. Further, with your GM’s approval, you may use Intimidate to ‘attack’ such targets, issuing specific commands, such as ‘drop your weapons’ or ‘get out of here!’. However, if you fail any of these subsequent Intimidate Tests, you no longer Intimidate (or cause Fear) in affected opponents. With your GM’s permission you may try to Intimidate them again in a later Round, but this will incur a negative modifier, as they are less likely to fear you having seen through your bravado once already.</p><p><strong>Example</strong>: <em>Facing a group of footpads, Svetlana the Strong rolls 4 SL on her Intimidate Test. Combined with her SB of 5, this means she can affect up to 9 targets, more than enough to impact all three footpads who now Fear Svetlana. As she has won by 3 SL, she gains +1 Advantage point until the end of her next turn. In the next round, she ‘attacks’ the footpads using her Intimidate, intending to scare them into leaving her be. However, she fails the Test, and the footpads realise they outnumber her, and are armed…</em></p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>OPTIONS: ALTERNATIVE CHARACTERISTICS FOR INTIMIDATE</em></h3><p><em>While Strength is the default stat for Intimidate Tests, the GM may decree certain situations may allow you to use a different Characteristic: a steely witch hunter may use Willpower to stare down an inquisitive bystander, or an academic may use Intelligence to cow a lowly student with his intimidating knowledge, for instance.</em></p></blockquote><div class=\"journal-image centered\"><img src=\"modules/wfrp4e-core/art/spot/spot-skull-helmet.webp\" width=\"223\" height=\"243\" /></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2500000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Intuition",
+      "type": "text",
+      "_id": "31VEXGfn6houFutI",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(I) </strong><em><strong>basic</strong></em></p><p>The Intuition Skill allows you to get a feel for your surroundings, leading you to notice when something is wrong, and gives you a sense of when people may be hiding something from you. A successful use of the Intuition Skill gives you subtle or implicit intelligence relating to your environment, determined by your GM. This may be information such as whether someone believes what they are saying, what the general attitude is towards the local noble, or if the helpful local’s motives are as pure as they seem. If someone is actively trying to hide their intent, they may resist your Intuition with Cool or Entertain (Acting).</p><p>In combat, a successful Intuition Test may be used to give you +1 Advantage as you weigh the environment and your opponents. You may continue building Advantage in subsequent turns providing you are able to observe your targets and are not interrupted (such as being attacked); you may gain a maximum Advantage equal to your Intelligence Bonus in this manner.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2400000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Language",
+      "type": "text",
+      "_id": "xo5U0kL08xCPe6kl",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Int) </strong><em><strong>advanced, grouped</strong></em></p><p>The Language Skill grants you access to extra languages beyond your native tongue. All characters are automatically assumed to be able to speak ‘Reikspiel’ — the language of the Empire — and their native language (if your character has one different to Reikspiel), without ever having to Test. If your game is not set in the Empire, replace Reikspiel with the local language.</p><p>If you possess a Language Skill, you are generally able to make yourself understood in that language, or to understand simple concepts. You will be asked to Test your Language Skill when a particularly difficult concept must be conveyed, or an obscure dialect or vocabulary is employed.</p><p><strong>Note</strong>: Language (Magick) is used to cast spells and may occasionally be Tested, with… unpleasant consequences if failed. Refer to @UUID[JournalEntry.YBVrpUHEjohB1H4f]{Magic}, for more on this.</p><p><strong>Specialisations</strong>: Battle Tongue, Bretonnian, Classical, Guilder, Khazalid, Magick, Thief, Tilean</p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>OPTIONS: BATTLE TONGUE</em></h3><p><em>Battle Tongue represents a series of simple commands and gestures that may be made in the heat of combat. Players with language (Battle Tongue) may communicate briefly with one another during combat without penalty. Those without the Skill cannot quickly coordinate their attacks or discuss strategy once combat begins.</em></p></blockquote><div class=\"journal-image centered\"><img src=\"modules/wfrp4e-core/art/other/secret-knights.webp\" width=\"229\" height=\"271\" /></div><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>LANGUAGES OF THE OLD WORLD</em></h3><p><em>Here is a list of the primary languages of the Old World, and who most commonly speaks them. There are an enormous number of other tongues spoken, but these are the most commonly encountered in the Reikland.</em></p><table style=\"width:100%;height:289px\" border=\"1\"><tbody><tr><td><em><strong>Language</strong></em></td><td><em><strong>Spoken by...</strong></em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Albion</em></td><td style=\"height:17px\"><em>…the folk of Albion, who hail from a far-off mist-shrouded island-realm and are rarely encountered.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Battle Tongue</em></td><td style=\"height:17px\"><em>…warriors of the Old World. It is very common amongst soldiers and mercenaries and is used for giving orders swiftly during battle. It was supposedly developed by the goddess Myrmidia when she walked the Old World as a mortal.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Bretonnian</em></td><td style=\"height:17px\"><em>…the folk of Bretonnia, who are commonly encountered in the Reikland. Bretonnia is a chivalric realm to the south-west of the Empire.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Classical</em></td><td style=\"height:17px\"><em>…Human academics of all kinds. It is the first recorded Human language of the Old World — over 3,000 years old — used in most scholarly texts of the Empire including wizard grimoires and many holy books.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Elthárin</em></td><td style=\"height:17px\"><em>…the folk of Athel Loren, the Laurelorn, and visiting merchants from Ulthuan. Elthárin is the language of the Elves. The tonal language has many dialects, and is notoriously difficult for non-Elves to learn.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Estalian</em></td><td style=\"height:17px\"><em>…the folk of Estalia, people of the hot, southern-western kingdoms known for their bitter politics and worship of the goddess Myrmidia.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Gospodarinyi</em></td><td style=\"height:17px\"><em>…the folk of Kislev, a hardy people from the frozen oblasts to the east of the Empire. The language is often called ‘Kislevarin’ or ‘Kislevite’ by outsiders.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Grumbarth</em></td><td style=\"height:17px\"><em>…Ogres; few others learn this simple tongue, though some mercenary commanders find it useful for communicating with any Ogres they may hire.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Khazalid</em></td><td style=\"height:17px\"><em>…the folk of Karaz Ankor, the Dwarf kingdoms in the mountains. This language is also wide-spread through the Cult of Sigmar, which venerates the strong relationship Sigmar had with the Dwarfs when he was mortal.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Magick</em></td><td style=\"height:17px\"><em>…wizards; a tonal language used to shape the Winds of Magic into material effects. The academic form of the language taught by the Colleges of Magic is called the Lingua Praestantia , which is quite different to the debased form of the language used by witches and the untrained. It is not a language used for communication.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Mootish</em></td><td style=\"height:17px\"><em>…the folk of the Mootland; i.e.: the Halfling grand province in the Empire. This language is little known outside the Moot.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Norse</em></td><td style=\"height:17px\"><em>…the folk of Norsca. Norse is commonly spoken across the north of the Empire in Nordland and Ostland, and is well-known in the Wasteland and Kislev, too. </em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Reikspiel</em></td><td style=\"height:17px\"><em>…the folk of the Empire. Reikspiel is the primary language used in most WFRP games. It manifests in uncounted discrete dialects from across the Empire, most of which are mutually intelligible. It is the modern version of the tongue once spoken by the God-King Sigmar when he still walked as a mortal over two thousand five hundred years ago.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Queekish</em></td><td style=\"height:17px\"><em>…the folk of the Under-Empire. Used by the Skaven and their many slaves. Few admit to speaking it, or even being aware of its existence.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Tilean</em></td><td style=\"height:17px\"><em>…the folk of Tilea, who are most commonly encountered in the Empire as traders or mercenaries. The Tilean Princedoms to the south are notorious for their deadly politics and their veneration of Myrmidia.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Thieves Tongue</em></td><td style=\"height:17px\"><em>…street folk of the Old World. Expressions of this language are highly localised and individual to each realm; e.g. Tileans sport a completely different ‘Thieves Tongue’ to folk of the Empire.</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Wastelander</em></td><td style=\"height:17px\"><em>...the rural folk of the Wasteland, a windswept territory to the west of the Reikland. The official language of the Wasteland’s capital, Marienburg, is Reikspiel, a reminder that the realm was once part of the Empire.</em></td></tr></tbody></table></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2600000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Leadership",
+      "type": "text",
+      "_id": "haKq6qZXYj7Bweu4",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Fel) </strong><em><strong>basic</strong></em></p><p>A measure of your ability to lead others and command their respect. While most often associated with martial situations, a resolute leader can quickly direct a fast response to a fire or other such calamity, and nobles use the Skill frequently to command their lessers.</p><p>A successful Leadership Test allows you to issue orders to a number of targets equal to your Fellowship Bonus + SL. If the targets are your natural subordinates — a noble commanding serfs, or a sergeant commanding his troops — commands are usually unopposed. If there is no natural hierarchy in place, or the order is particularly challenging — such as ordering your soldiers to charge a Hydra head on — the Test is Opposed by your targets’ Cool.</p><p>In combat, you may use Leadership to encourage your subordinates. A successful Leadership Test confers a bonus of +10 to all @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.5w5YLPNd6AaU4f85#psychology-test]{Psychology Tests} until the end of the next round.</p><p>Further, Leadership can be used to transfer Advantage to allies able to hear you; following a successful Leadership Test, you may transfer an Advantage to one ally of your choice, plus a further +1 Advantage per SL scored, which can again go to any allies of your choice within earshot.</p><p><strong>Example</strong>: <em>Lord Ludwig von Schemp has been watching his two bodyguards discourse with some ruffians for three Rounds, using his Intuition Skill to build up 3 Advantage. Feeling it is going nowhere, he issues a peremptory order to attack the ringleader; passing his Leadership Test with 5 SL, he gives one bodyguard 2 of his Advantage, and the remaining bodyguard 1 Advantage, hoping this will bring a swift end to proceedings.</em></p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>WHO’S THE BOSS?</em></h3><p><em>GMs should be aware that having Players issue orders to other Players may cause friction within the party. If you have Players who are of differing social class, or military ranks, be sure to discuss how this will be reflected in your intraparty dynamics to ensure a smooth and enjoyable game for everyone.</em></p></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2700000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Lore",
+      "type": "text",
+      "_id": "F0RPpWALOBy2zdyc",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Int) </strong><em><strong>advanced, grouped</strong></em></p><p>Having a Lore Skill means you’ve been formally taught, or have somehow otherwise learned, a branch of specialist knowledge. Possessing a Lore Skill means you are broadly knowledgeable in the specialisation and don’t need to make a Test in order for the GM to supply you with relevant facts. If you are seeking specific, less well-known information, you will be required to make a Lore Test, modified by how obscure the information is, with the SL indicating how much detail you recall. </p><p>In combat, successful Lore Tests may afford you +1 Advantage if appropriate (with your GM’s approval). For instance, Lore (Geology) may give you an edge if fighting in a rocky cavern, or Lore (Engineering) may help you if fighting a foe armed with a complex mechanical device. You may continue building Advantage in subsequent turns providing the circumstances are correct (as determined by the GM) and you are not interrupted; you may gain a maximum Advantage equal to your Intelligence Bonus in this manner.</p><p><strong>Specialisations</strong>: Engineering, Geology, Heraldry, History, Law, Magick, Metallurgy, Science, Theology</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2800000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Melee",
+      "type": "text",
+      "_id": "mk4p8y3RetTuMe2f",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(WS) </strong><em><strong>basic, grouped</strong></em></p><p>The Melee Skill represents specific training with a single type of close combat weaponry. Each Melee Specialisation indicates training in using a specific class of weapon. If you don’t have the correct Specialisation for a weapon you wish to use, refer to @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8]{Consumers’ Guide} for the correct weapon entry, and what penalties you will suffer. See @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.wmA76Q2zJJ9HrkvA#attacking]{Rules} for more detail about combat and using the Melee Skill.</p><p><strong>Specialisations</strong>: Basic, Brawling, Cavalry, Fencing, Flail, Parry, Pole-Arm, Two-Handed</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2900000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Navigation",
+      "type": "text",
+      "_id": "rf7gtZko4KJvjFaE",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(I) </strong><em><strong>basic</strong></em></p><p>Navigation allows you to find your way in the wilderness using landmarks, stellar bodies or maps. Possessing the Navigation Skill means you know roughly where you are, and can find your way between well-known landmarks without a Test. A Test is only required if you are disoriented or travelling far from the beaten path, with success showing you the correct direction, or allowing you to avoid mishap.</p><p>If you are navigating a long journey, your GM may ask for an extended Navigation Test, modified by conditions, visible landmarks, and access to reliable geographical information. The SL required to succeed depends on how far the destination is, with each Test representing between an hour and a day’s travel, depending on the nature of the journey.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 3000000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Outdoor Survival",
+      "type": "text",
+      "_id": "cFqWFER60SjM5Wn3",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Int) </strong><em><strong>basic</strong></em></p><p>The Outdoor Survival Skill is used to survive in the wild, including the ability to fish, hunt, forage, and build fires and shelters. Experienced travellers are skilled at reading the signs of incoming inclement weather and finding the spoor of various dangerous beasts.</p><p>When camping, make an Outdoor Survival Test, modified by the harshness of conditions — for instance, a Test is <strong>Challenging (+0)</strong> if it is raining, <strong>Hard (–20)</strong> in a storm. A successful Test indicates you can provide yourself sustenance and shelter for the night. Each SL allows you to provide for one more character. If the Test is failed, you must make a <strong>Challenging (+0) Endurance</strong> Test or receive the @Condition[Fatigued] Condition. If you suffer an Astounding Failure, something untoward has happened, as determined by the GM; perhaps your camp is attacked in the night?</p><p>When fighting in the wilderness, you may make an Outdoor Survival Test to receive +1 Advantage, in the same way as Intuition, to a maximum number of Advantage equal to your Intelligence Bonus, as you spy out treacherous and advantageous terrain that you can best use to your advantage.</p><blockquote class=\"sidebar\"><h4 style=\"text-transform:uppercase\" class=\"sidebar-title\"><em>Options: Gathering Food and Herbs</em></h4><p><em>Gathering food or herbs normally takes around 2 hours. Hunting and foraging parties make one Assisted Outdoor Survival Test for the group, with the Difficulty determined by the circumstances.</em></p><ul><li><p><em><strong>Foraging</strong>: A success grants enough food for one character. Every SL yields sufficient extra food for one more person.</em></p></li><li><p><em><strong>Hunting and Fishing</strong>: If you have appropriate bows, spears, fishing rods, or nets, a successful Test feeds two people, and an extra two people per SL.</em></p></li><li><p><em><strong>Trapping</strong>: Use the Set Trap Skill to place @UUID[Compendium.wfrp4e-core.items.k0KeWhPgFGUcOgs0]{Animal traps}). Feeds the same number of people as </em>Hunting and Fishing<em>.</em></p></li><li><p><em><strong>Lore (Herbs)</strong>: If you are instead gathering herbs using Lore (Herbs), a success gathers enough for a dose of the sought herb (see @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.PYiffieXenZHBUAU]{Herbs and Draughts}), with each SL adding an extra dose. Gathering tests are modified by herb Availability: Common (0), Scarce (–10), Rare (–20), or Exotic (–30).</em></p></li></ul></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 3100000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Perception",
+      "type": "text",
+      "_id": "6Jhks0zDRpJeN6dW",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(I) </strong><em><strong>basic</strong></em></p><p>Your ability to notice things with your senses — sight, smell, hearing, touch, and taste, and any other senses you may possess, such as magical or non-Human senses. Your GM may ask for a Perception Test to detect something, like movement behind the treeline, the presence of a trap, or someone following you, modified by how easy it is to notice. Perception is also used to resist attempts to hide things through Skills such as Sleight of Hand or Stealth.</p><p>Perception has multiple uses in combat, most commonly to notice important details beyond the immediately obvious about the surrounding environment and your opponents, as determined by the GM.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 3200000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Perform",
+      "type": "text",
+      "_id": "6MQIGorN3WgXWfJB",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Ag) </strong><em><strong>advanced, grouped</strong></em></p><p>You’ve learned a physically demanding art, perhaps as a way of making a living, maybe as a street entertainer or as part of a travelling carnival. A successful use of the Perform Skill allows you to entertain all patrons close enough to see and hear you; the SL indicate how well you have done.</p><p>In combat, certain physical Perform specialisations may give you an edge. With your GM’s permission, Perform (Acrobatics) may be used in lieu of Dodge. Other Perform Skills may be useful in distracting foes, perhaps gaining you an Advantage if you can come up with a creative way to do so. And some Perform skills can be directly used as a weapon if you have the correct trappings, such as Perform (Firebreathing)!</p><p><strong>Specialisations</strong>: Acrobatics, Clowning, Dancing, Firebreathing, Juggling, Miming, Rope Walking</p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>THE OLD WORLD’S A STAGE…</em></h3><p><em>While there is some overlap between the Skills of Entertain, Perform, and Play, each reflects a distinct group of Skills.</em></p><p><em>@UUID[.hrCbYa4b2iKPgBui]{Entertain} is a Basic Skill using Fellowship. It represents those Skills of entertainment that anyone can attempt, even without training, such as singing or telling stories.</em></p><p><em>Perform is an Advanced Skill using Agility. Perform Specialisations require training to attempt, and rely on physical speed and coordination.</em></p><p><em>@UUID[.N63wZOWw6ZLYnePN]{Play} is also an Advanced Skill, this time using Dexterity. It represents training in specific musical instruments, all of which need teaching and practice to perform well.</em></p><p><em>You should choose carefully when determining whether your chosen Specialisation belongs to Entertain, Perform, or Play; consider how the character will physically enact the Skill, and whether an untrained beginner could do so with any success. After all, someone without any musical training could feasibly sing beautifully, but hand them a set of bagpipes…</em></p></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 3300000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Pick Lock",
+      "type": "text",
+      "_id": "XexqYWmxO5dy2us3",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Dex) </strong><em><strong>advanced</strong></em></p><p>You know the mechanisms of locks and how to open them without their proper keys. Picking a lock is often an Extended Test, with the number of SL required to open the lock dependent on the complexity of the lock.</p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>LOCKS AND LOCK PICKS</em></h3><p><em>Lock Difficulty ratings assume the use of lock picks. Improvised picks such as hairpins and nails can be used at –10 penalty. Each Test normally takes a Round to complete, though the GM may determine some locks are particularity stiff or rusted, and take longer. If the GM deems a lock is sufficiently simple, unskilled characters can attempt a single Very<strong> Hard (–30) Dexterity</strong> Test to pick the lock. The following provides some standard difficulties for locks typically encountered in the Old World.</em></p><table style=\"width:100%;height:95px\" border=\"1\"><tbody><tr style=\"height:17px\"><td style=\"height:17px\"><em><strong>Lock Type</strong></em></td><td style=\"height:17px\"><em><strong>Difficulty</strong></em></td><td style=\"height:17px;text-align:center\"><em><strong>SL</strong></em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Latch</em></td><td style=\"height:17px\"><em>Average (+20)</em></td><td style=\"height:17px;text-align:center\"><em>0</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Normal Door</em></td><td style=\"height:17px\"><em>Challenging (+0)</em></td><td style=\"height:17px;text-align:center\"><em>2</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Secure Door</em></td><td style=\"height:17px\"><em>Difficult (-10)</em></td><td style=\"height:17px;text-align:center\"><em>2</em></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><em>Treasure Chest</em></td><td style=\"height:17px\"><em>Hard (-20)</em></td><td style=\"height:17px;text-align:center\"><em>5</em></td></tr><tr style=\"height:10px\"><td style=\"height:10px\"><em>Vault Door</em></td><td style=\"height:10px\"><em>Very Hard (-30)</em></td><td style=\"height:10px;text-align:center\"><em>10</em></td></tr></tbody></table></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 3400000,
+      "flags": {
+        "core": {
+          "sheetClass": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Play",
+      "type": "text",
+      "_id": "N63wZOWw6ZLYnePN",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Dex) </strong><em><strong>advanced, grouped</strong></em></p><p>Your ability to make music with an instrument, hopefully well enough to impress others. A successful Play Test lets you entertain those near enough to see and hear you; the SL indicates the quality of the piece played.</p><p><strong>Specialties</strong>: Bagpipe, Lute, Harpsichord, Horn, Violin</p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>THE OLD WORLD’S A STAGE…</em></h3><p><em>While there is some overlap between the Skills of Entertain, Perform, and Play, each reflects a distinct group of Skills.</em></p><p><em>@UUID[.hrCbYa4b2iKPgBui]{Entertain} is a Basic Skill using Fellowship. It represents those Skills of entertainment that anyone can attempt, even without training, such as singing or telling stories.</em></p><p><em>@UUID[.6MQIGorN3WgXWfJB]{Perform} is an Advanced Skill using Agility. Perform Specialisations require training to attempt, and rely on physical speed and coordination.</em></p><p><em>Play is also an Advanced Skill, this time using Dexterity. It represents training in specific musical instruments, all of which need teaching and practice to perform well.</em></p><p><em>You should choose carefully when determining whether your chosen Specialisation belongs to Entertain, Perform, or Play; consider how the character will physically enact the Skill, and whether an untrained beginner could do so with any success. After all, someone without any musical training could feasibly sing beautifully, but hand them a set of bagpipes…</em></p></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 3500000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Pray",
+      "type": "text",
+      "_id": "NRfh04q1bZBIND0A",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Fel) </strong><em><strong>advanced</strong></em></p><p>Your ability to invoke, or otherwise commune with, a deity. For more information on using the Pray Skill to seek divine intervention, see @UUID[JournalEntry.NcH9OhleJFfaUdon.JournalEntryPage.uNYj9n5rXsc8W5GS]{Religion &amp; Belief}.</p><p>In combat, if your GM deems it appropriate considering your circumstances and faith, you may use Pray to meditate and focus your mind. Each round you spend praying in combat — and making a successful Pray Test — gives you +1 Advantage. You can gain additional Advantage this way, up to a maximum of your Fellowship Bonus.</p><p>Further, if your enemies understand your language and recognise (and fear) your deity, the GM may allow you to use Pray in lieu of the Intimidate Skill.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 3600000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Ranged",
+      "type": "text",
+      "_id": "jJYOiSQNgC9v7cM5",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(BS) </strong><em><strong>advanced, grouped</strong></em></p><p>Whilst anyone can throw a rock simply using their Ballistic Skill, it takes training and practice to use weapons like bows and pistols. Each Ranged Specialisation is specific to a group of ranged weapons. If you don’t have the Ranged Specialisation for a weapon you wish to use, refer to @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8]{Consumers’ Guide} to see what penalties you will suffer when using the weapon. See @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.wmA76Q2zJJ9HrkvA#ranged-combat]{Rules} for full detail about ranged combat.</p><p><strong>Specialisations</strong>: Blackpowder, Bow, Crossbow, Engineering, Entangling, Explosives, Sling, Throwing</p><div class=\"journal-image\"><img class=\"fit\" src=\"modules/wfrp4e-core/art/other/goblin-barrel.webp\" /></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 3700000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Research",
+      "type": "text",
+      "_id": "Nv0jexKy05qTOnuN",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Int) </strong><em><strong>advanced</strong></em></p><p>How adept you are at pulling useful and frequently obscure knowledge from libraries and other such storehouses of information. Research requires you have the @UUID[Compendium.wfrp4e-core.items.GogGbYxkVdCmiKqf]{Read/Write} Talent.</p><p>Simply possessing the Research Skill indicates you can find straightforward information from a clearly indexed library without a Test given enough time. If you are seeking specific, less well-known information, or you are in a rush, you will be required to make an Extended Research Test, with the Difficulty modified by the library size, and the target SL depending upon the obscurity of the topic.</p><p>Research has no use in combat beyond perhaps finding you a useful manual on sword-fighting techniques.</p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>RESEARCH AND LIBRARIES</em></h3><p><em>Libraries of the Old World vary from small personal libraries of a few dozen books to vast archives found in the universities and temples of the towns and cities.</em></p><p><em>Using a Research Test in a small library, perhaps to find a specific book, only takes about 5 minutes. By comparison, Research Tests in large libraries can easily takes an hour or more per Test, but are far more likely to find esoteric lore.</em></p></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 3800000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Ride",
+      "type": "text",
+      "_id": "QQukmSP68cF8MzJe",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Ag) </strong><em><strong>basic, grouped</strong></em></p><p>How proficient you are at riding a particular group of animals; Ride (Horse), for example, will let you ride Horses, Mules, Donkeys, and similar. You’ll only need to make a Test when doing something out of the ordinary, such as racing, dressage, traversing dangerous terrain, or charging into combat. Otherwise, if you have at least one Advance in the Skill, you are presumed to be able to ride around without need of a Test.</p><p>If mounted on a steed, you move using the steed’s Movement statistic; if you wish to run, jump, or leap, you use your Ride Skill, not Athletics. An extended Ride Test may be needed if you are racing somewhere, the target SL depending on the length of the journey, the number of Tests indicating how long you take to arrive. A Ride Test may be modified by environmental conditions, and the temperament of your mount. For more information on mounts, see @UUID[JournalEntry.3ZynTGhFpgwv6l1n]{Bestiary}.</p><p>The Ride skill can be used extensively in combat. See @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.wmA76Q2zJJ9HrkvA#mounted-combat]{Rules}, for more on mounted combat.</p><p><strong>Specialisations</strong>: Demigryph, Great Wolf, Griffon, Horse, Pegasus</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 3900000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Row",
+      "type": "text",
+      "_id": "ACCaGYXdz9yKyxgG",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(S) </strong><em><strong>basic</strong></em></p><p>Your prowess at pulling an oar and moving a boat through the water. The Row Skill is typically only used when racing, navigating rapids, desperately avoiding @UUID[Compendium.wfrp4e-core.actors.FmEDHnfAe2iIugpt]{Bog Octopuses}, or similar unusual or dangerous feats. Anyone with the Skill is automatically presumed to be able to scull about a pond, or over a gentle river, without a Test. Those without the skill may have to make a Test for anything but the most basic manoeuvres.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 4000000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Sail",
+      "type": "text",
+      "_id": "DLrOPZtVMLgSyxaj",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Ag) </strong><em><strong>advanced, grouped</strong></em></p><p>Your ability to operate and manoeuvre a sailing vessel — including knotwork, steering, gauging the wind, and more. Assuming you have enough trained crew for your vessel, you only use the Sail Skill when you must push your vessel to perform, either by racing, navigating particularly dangerous shoals, struggling against bad weather, or similar difficulties. Simply sailing with a gentle wind, or guiding a ship downriver, doesn’t require a Test for those with Sail. The skill can also be used for sailing-related activities like tying knots, or tying others up in knots.</p><p>As sailing one ship is not so different to sailing another, having any Sail Speciality makes all other Sail Specialities Basic Skills for you.</p><p><strong>Specialisations</strong>: Barge, Caravel, Cog, Frigate, Wolfship</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 4100000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Secret Signs",
+      "type": "text",
+      "_id": "X2FppoPGuEwJKssM",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Int) </strong><em><strong>advanced, grouped</strong></em></p><p>You’ve been taught how to use clandestine markings only intelligible to members of a select group. There are all manner of reasons why someone may want to leave a secret message: vagabonds might indicate which homeowners are likely to offer alms, thieves may want to indicate weaknesses, or likely marks, while scouts may want to warn one another about a dangerous monster’s lair nearby.</p><p>This Skill does not usually need to be Tested — you can decipher any appropriate signs you can see if you have this Skill. But if the signs have been disturbed, worn away, or if you are pressed for time, then a Test will likely be required. Most messages are very simple, no more than three words.</p><p><strong>Specialisations</strong>: Grey Order, Guild (any one), Ranger, Scout, Thief, Vagabond</p><div class=\"journal-image centered\"><img src=\"modules/wfrp4e-core/art/spot/spot-animal-skull.webp\" width=\"199\" height=\"233\" /></div><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>I SAW THE SIGN…</em></h3><p><em>This is a list of the primary secret signs of the Old World, and those who use them. This is only a tiny sample of those most commonly used in the Reikland; there are many more than this short list suggests, and you are encouraged to create those best fitting your game.</em></p><table style=\"width:100%;height:333px\" border=\"1\"><tbody><tr style=\"height:10px\"><td style=\"height:10px;width:17.8982%\"><strong><span style=\"font-style:normal\">Secret Signs</span></strong></td><td style=\"height:10px;width:82.1018%\"><em><strong>Used by...</strong></em></td></tr><tr style=\"height:68px\"><td style=\"height:68px;width:17.8982%\"><em>Grey Order</em></td><td style=\"height:68px;width:82.1018%\"><em>…Grey Wizards. The secretive Greys use a complex array of signs, many only perceptible to wizards. They mark the land for their wandering wizards, highlighting safe houses, places of danger, areas where wizards are unwelcome, and much more besides.</em></td></tr><tr style=\"height:51px\"><td style=\"height:51px;width:17.8982%\"><em>Guilder</em></td><td style=\"height:51px;width:82.1018%\"><em>…guilders. Many of the larger guilds, from masons to stevedores, have an array of marks and signs used to identify matters of importance to their members.</em></td></tr><tr style=\"height:51px\"><td style=\"height:51px;width:17.8982%\"><em>Ranger</em></td><td style=\"height:51px;width:82.1018%\"><em>…woodsmen and other rural folk. Ranger signs are mostly used to mark territory, point out areas of importance or danger, and indicate safe paths.</em></td></tr><tr style=\"height:51px\"><td style=\"height:51px;width:17.8982%\"><em>Scout</em></td><td style=\"height:51px;width:82.1018%\"><em>…scouts, particularly those employed by armies and mercenary companies. The signs are mostly used to point out foraging areas, routes for supply trains, and significant dangers ahead.</em></td></tr><tr style=\"height:51px\"><td style=\"height:51px;width:17.8982%\"><em>Thief</em></td><td style=\"height:51px;width:82.1018%\"><em>…thieves and rogues. The various gangs and criminal outfits of the towns and cities use a variety of marks to point out bolt holes, easy marks, well-patrolled areas, and more.</em></td></tr><tr style=\"height:51px\"><td style=\"height:51px;width:17.8982%\"><em>Vagabond</em></td><td style=\"height:51px;width:82.1018%\"><em>…wandering vagabonds and pedlars. Vagabond signs are mostly used to identify safe places to sleep, villages to avoid, and sources of food and water.</em></td></tr></tbody></table></blockquote>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 4200000,
+      "flags": {
+        "core": {
+          "sheetClass": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Set Trap",
+      "type": "text",
+      "_id": "fmMkUHUwOPwex8mj",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Dex) </strong><em><strong>advanced</strong></em></p><p>From a simple snare, or bear-trap, to more spectacular devices like Von Grizzel’s Thief-Render, players are unlikely to venture far in the Old World without encountering traps. The Set Trap Skill measures your ability to set and disarm traps of all varieties. Anyone with the skill is automatically assumed to be able to activate and disarm traps given enough time. A Test is normally only required if attempting to use the Skill swiftly or if otherwise under pressure, or if the trap is especially complex. A selection of simple traps can be found in @UUID[JournalEntry.sLomXnc8R8518cWN]{Consumers’ Guide}.</p><p>Setting or disarming most traps requires an <strong>Average (+20%) Set Trap</strong> Test, but more complex devices may require an extended Test, needing several SL over multiple rounds to set.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 4300000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Sleight of Hand",
+      "type": "text",
+      "_id": "bGqmHCju8VZ8q2Pv",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Dex) </strong><em><strong>advanced</strong></em></p><p>Lets you pick pockets, palm objects, and perform minor tricks of prestidigitation, as well as cheating with games of chance. This Skill is typically Opposed by the Perception Skill of your target; success means you have palmed the object, picked the pocket, or swapped the cards, while a Marginal Success (+0 to +1) may suggest that your nefarious misdeeds have left your opponent suspicious.</p><p>You can also use Sleight of Hand to ‘help’ your Gamble Skill when playing appropriate games of chance. Before any round (or similar, depending upon the game at hand) you can attempt a Sleight of Hand Test (which will be opposed if others suspect). If successful, you may reverse your Gamble Test for the round if this will score a Success. If failed, your opponents may not be best pleased…</p><p>Sleight of Hand and combat rarely mix, though inventive players may be able to conjure an impressive distraction with GM approval, perhaps even gaining Advantage by making a @UUID[Compendium.wfrp4e-core.items.ahlxlfIl8xUhBkic]{Dagger} seemingly appear from nowhere, surprising a superstitious foe.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 4400000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Stealth",
+      "type": "text",
+      "_id": "OcTx7sDraGiGcvnE",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Ag) </strong><em><strong>basic, grouped</strong></em></p><p>Allows you to creep quietly and conceal yourself in shadows more readily than most. Stealth is generally Opposed by an opponent’s Perception Skill, and Tests will be modified by how dark or well concealed your route is, as well as how circumspectly you are dressed. An Impressive or Astounding Failure on a Stealth Test will likely draw the immediate attention of the enemies you were trying to avoid in the first place.</p><p>Stealth has many potential applications in combat, most usefully to hide oneself in preparation for an Ambush, or to creep around an opponent in order to attack from behind. See @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.wmA76Q2zJJ9HrkvA#surprise]{Rules} for the implications of this. Of course, you can also use the Skill to escape a conflict unseen…</p><p><strong>Specialisations</strong>: Rural, Underground, Urban</p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>OPTIONS: SHADOWING</em></h3><p><em>Shadowing is following someone secretly. To do this requires a @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.lQThXbnpgQ30VBXR#options:-combining-skills]{Combined Perception and Stealth Test}. If the target is actively trying to lose a tail, it is Opposed with the target’s Stealth Skill.</em></p><p><em>If you pass the Perception Test, and fail the Stealth Test you follow your target, but are spotted. If you fail the Perception Test, yet pass the Stealth Test, you lose your target, but go unnoticed.</em></p></blockquote><div class=\"journal-image\"><img class=\"fit\" src=\"modules/wfrp4e-core/art/other/tricksy-halflings.webp\" /></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 4500000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Swim",
+      "type": "text",
+      "_id": "QoWDfx8SIhpCiIX5",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(S) </strong><em><strong>advanced</strong></em></p><p>Your ability to swim in water without drowning. If you have the Swim Skill, you are automatically presumed to be able to swim freely without a Test. But if you find yourself in difficult currents, racing, or fleeing from an oversized shark sent by Stromfels, the God of Drowning, a Test will be required. This may be modified by the condition of the water, or how encumbered you are by clothes, armour, and other trappings.</p><p>Swim is only used in combat if you happen to be fighting in the water, where it replaces Skills like Athletics to govern Movement. If exact speeds are required, you swim at half your Movement rate, using the normal rules for moving found in @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.bdfiyhEYtKs7irqc]{Moving}.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 4600000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Track",
+      "type": "text",
+      "_id": "EWHNXyzDLPBpoVxK",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Your ability to follow subtle trails left by others. Track is used to follow difficult trails across the wilderness. This is not a skill for following a set of footprints in the snow — a simple Perception test covers that — Track involves deeper knowledge and awareness used to recognise the subtle signs of a quarry’s passage. You can also attempt to hide your trail, in which case use your Track skill to oppose your pursuer’s Track Test.</p><p>Often an Extended Track Test is required to follow a trail, with the Difficulty modified by how fresh the tracks are, and how suitable the ground is: damp earth betrays passage better than stony ground. The GM may also use the @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.bdfiyhEYtKs7irqc#pursuit]{Pursuit} rules to determine if you manage to track down a fleeing quarry.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 4700000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Trade",
+      "type": "text",
+      "_id": "jmFSm7UvmHEq52iu",
+      "title": {
+        "show": true,
+        "level": 4
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>(Dex) </strong><em><strong>advanced, grouped</strong></em></p><p>Most folk of the Reikland follow a trade; even adventurers often have a more reliable, or respectable career to fall back on, between bouts of hair-raising, bowel-loosening excitement.</p><p>The Trade Skill represents your ability to create something or provide a service, as well as your knowledge of the relevant lore surrounding your trade.</p><p>Having the Skill is enough to automatically perform the tasks associated with your trade, assuming you have the correct resources and tools. You need only Test your Trade Skill if you are seeking to create something quickly, conditions are adverse, or you are seeking to invent or create a high-quality item.</p><p>Often Trade Tests of this type are extended Test, with the SL and time required depending upon the scope or scale of what is being produced; a quick meal with Trade (Cook) to impress a local lord will take far less time than constructing a warship with Trade (Shipwright).</p><p>You may also make a Trade Test as a Lore Skill, to determine information relevant to the trade in question. In such circumstances, the GM may prefer to use Int over Dex as the base Characteristic, though often this is ignored to keep play simple.</p><p>While most Trade Skills have little function in combat, there are as many Trade Skills as there are trades, and some may be of use depending upon the circumstances. For example, a successful Trade (Apothecary) Test may be useful if fighting in an Apothecary’s shop as you identify some astringent chemicals to hurl at your foes.</p><p>The Trade Skill is also used for enacting a @UUID[JournalEntry.gLDW6JBuoYuzCoya.JournalEntryPage.RQLJYU3OyA0WUoPG]{Crafting} Endeavour.</p><p><strong>Specialisations</strong>: Apothecary, Calligrapher, Chandler, Carpenter, Cook, Embalmer, Smith, Tanner</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 4800000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Talents",
+      "type": "text",
+      "_id": "hJPYQVrvjBzjCNyi",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Where Characteristics represent your raw potential, and Skills are your training and experience, Talents represent all the tricks, quirks, and special abilities you have learned throughout life.</p><h3>Gaining Talents</h3><p>During character creation you will automatically receive a selection of Talents (see @UUID[JournalEntry.IQ0PgoJihQltCBUU.JournalEntryPage.f5Y4XenZVtDU2GUo]{Character}). After this, you can use Experience Points (XP) to purchase new Talents, or take existing ones multiple times, if allowed, from the advance scheme of your Career (see @UUID[JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.84Aj04uEEBh3yTS3#talent-advances]{Talent Advances}).</p><p>If you can take a Talent multiple times, it may have a special rule for what this means written into its description. Further, it may have an associated Skill marked under ‘Tests’ (see Talent Format): if so, for each time you have the Talent, you gain +1 SL on any successful use of a Skill tied to the Talent.</p><blockquote class=\"sidebar\"><h3 class=\"no-toc\" style=\"text-align:center\"><em>TALENT FORMAT</em></h3><p><em>The following explains how each Talent is presented.</em></p><ul><li><p><em><strong>Talent Name (situation)</strong>: The name of the Talent. If there are parentheses, the word within describes a situation the Talent influences.</em></p></li><li><p><em><strong>Max</strong>: The maximum number of times the Talent may be taken, which is normally 1 or an associated Characteristic Bonus.</em></p></li><li><p><em><strong>Tests</strong>: If the Talent is tied to one or more Tests your character can make, the affected Tests are listed here. Talents tied to a Test come with an extra rule: For each time you have taken the Talent, you gain +1 SL on any successful use of the Skill tied to the Talent.</em></p></li><li><p><em><strong>Description (not titled)</strong>: A description of what the Talent does.</em></p></li></ul></blockquote><h3>Master Talent List</h3><div class=\"journal-image float-right\"><img src=\"modules/wfrp4e-core/art/other/alley-thief.webp\" width=\"311\" height=\"403\" /></div><p>@UUID[Compendium.wfrp4e-core.items.XIcDsaW4D8wScezw]{Accurate Shot}</p><p>@UUID[Compendium.wfrp4e-core.items.9h82z72XGo9tfgQS]{Acute Sense}</p><p>@UUID[Compendium.wfrp4e-core.items.1IZWRr7BYOIcqPlQ]{Aethyric Attunement}</p><p>@UUID[Compendium.wfrp4e-core.items.wBhPFggGqIXwbx1r]{Alley Cat}</p><p>@UUID[Compendium.wfrp4e-core.items.IFKWu98qmWpaSfUi]{Ambidextrous}</p><p>@UUID[Compendium.wfrp4e-core.items.9fq6p9Q6H02LjaSi]{Animal Affinity}</p><p>@UUID[Compendium.wfrp4e-core.items.3O9clK7LGyuLTHPW]{Arcane Magic}</p><p>@UUID[Compendium.wfrp4e-core.items.41JhsSNW1Ttza3JK]{Argumentative}</p><p>@UUID[Compendium.wfrp4e-core.items.2eq8Ejotk54AZYwX]{Artistic}</p><p>@UUID[Compendium.wfrp4e-core.items.6l3jvIAvrKxt0lA9]{Attractive}</p><p>@UUID[Compendium.wfrp4e-core.items.FtjMeeGEO4YuGIBv]{Battle Rage}</p><p>@UUID[Compendium.wfrp4e-core.items.L1MoarOIAlia1Ti4]{Beat Blade}</p><p>@UUID[Compendium.wfrp4e-core.items.5KP9sOoLSGvj9EXp]{Beneath Notice}</p><p>@UUID[Compendium.wfrp4e-core.items.oRx92ByVNEBN6YkK]{Berserk Charge}</p><p>@UUID[Compendium.wfrp4e-core.items.77p3QRKgFWakkndF]{Blather}</p><p>@UUID[Compendium.wfrp4e-core.items.QyjWtSdnVMT04l5Y]{Bless}</p><p>@UUID[Compendium.wfrp4e-core.items.zv3IyoU2wkPZu8pD]{Bookish}</p><p>@UUID[Compendium.wfrp4e-core.items.wrpVYmdiIy1jPulc]{Break and Enter}</p><p>@UUID[Compendium.wfrp4e-core.items.34EBUkHQkrqF1sq7]{Briber}</p><p>@UUID[Compendium.wfrp4e-core.items.Yiw5h1Kj4B2WLlfm]{Cardsharp}</p><p>@UUID[Compendium.wfrp4e-core.items.GU1KpgY3MeFIaDaq]{Careful Strike}</p><p>@UUID[Compendium.wfrp4e-core.items.hTgrGkWnmIR4xhVe]{Carouser}</p><p>@UUID[Compendium.wfrp4e-core.items.LzgxyMknSHjSkkeQ]{Cat-tongued}</p><p>@UUID[Compendium.wfrp4e-core.items.g4Q6AtzZuo5iIvD4]{Catfall}</p><p>@UUID[Compendium.wfrp4e-core.items.hiU7vhBOVpVI8c7C]{Chaos Magic}</p><p>@UUID[Compendium.wfrp4e-core.items.0LdHytqyNmg2pcAX]{Combat Aware}</p><p>@UUID[Compendium.wfrp4e-core.items.NDetl9BhAQBVnHKf]{Combat Master}</p><p>@UUID[Compendium.wfrp4e-core.items.tXKX29QZBdHmyMc7]{Combat Reflexes}</p><p>@UUID[Compendium.wfrp4e-core.items.x8g3U68oi8XzWiYr]{Commanding Presence}</p><p>@UUID[Compendium.wfrp4e-core.items.wXcJWxJdw0ib5b8W]{Concoct}</p><p>@UUID[Compendium.wfrp4e-core.items.TaYriYcJkFuIdBKp]{Contortionist}</p><p>@UUID[Compendium.wfrp4e-core.items.JLzJws09GMw9GWBV]{Coolheaded}</p><p>@UUID[Compendium.wfrp4e-core.items.edsenrEYTLOtpa6b]{Crack the Whip}</p><p>@UUID[Compendium.wfrp4e-core.items.GRRN3XAKIpEVCY7z]{Craftsman}</p><p>@UUID[Compendium.wfrp4e-core.items.r180vP86SlwyJc8W]{Criminal}</p><p>@UUID[Compendium.wfrp4e-core.items.jLJzZb4keVvE0qRv]{Deadeye Shot}</p><p>@UUID[Compendium.wfrp4e-core.items.epPBu7x6BRWp2PHG]{Dealmaker}</p><p>@UUID[Compendium.wfrp4e-core.items.g3y373FnWJEAxgEB]{Detect Artefact}</p><p>@UUID[Compendium.wfrp4e-core.items.cAxNctMFWIAjDgV3]{Diceman}</p><p>@UUID[Compendium.wfrp4e-core.items.2Nzqsc9aclP6rpnl]{Dirty Fighting}</p><p>@UUID[Compendium.wfrp4e-core.items.DS44h27iCOvUBa4O]{Disarm}</p><p>@UUID[Compendium.wfrp4e-core.items.MoiYSfJRPHu7SZCQ]{Distract}</p><p>@UUID[Compendium.wfrp4e-core.items.fn8QNQQ1S2rh12Us]{Doomed}</p><p>@UUID[Compendium.wfrp4e-core.items.J9MK0AIaTbvd5oF6]{Drilled}</p><p>@UUID[Compendium.wfrp4e-core.items.URwIDtInCsxOoGqM]{Dual Wielder}</p><p>@UUID[Compendium.wfrp4e-core.items.HIofcsDLjXGKzSZf]{Embezzle}</p><p>@UUID[Compendium.wfrp4e-core.items.VscjNv6RzHFb9CQp]{Enclosed Fighter}</p><p>@UUID[Compendium.wfrp4e-core.items.sYbgpSnRqSZWgwFP]{Etiquette}</p><p>@UUID[Compendium.wfrp4e-core.items.9sMAf0xmehjEmUao]{Fast Hands}</p><p>@UUID[Compendium.wfrp4e-core.items.5eDd6iFeR9G6cCfz]{Fast Shot}</p><p>@UUID[Compendium.wfrp4e-core.items.8pVzgPkgWpTJvfhG]{Fearless}</p><p>@UUID[Compendium.wfrp4e-core.items.0pXva9EODy9bngQX]{Feint}</p><p>@UUID[Compendium.wfrp4e-core.items.fEFAMNqh8nJIfBkM]{Field Dressing}</p><p>@UUID[Compendium.wfrp4e-core.items.1kgHcImgfyKI1IYp]{Fisherman}</p><p>@UUID[Compendium.wfrp4e-core.items.Gs10qhA4CDmZyb1g]{Flagellant}</p><p>@UUID[Compendium.wfrp4e-core.items.jrFIFLhyOYwcyMUl]{Flee!}</p><p>@UUID[Compendium.wfrp4e-core.items.E3vTSCzgrasNijUO]{Fleet Footed}</p><p>@UUID[Compendium.wfrp4e-core.items.hXcfygzujgyMN1uI]{Frenzy}</p><p>@UUID[Compendium.wfrp4e-core.items.mqo51ORnxijcqNNu]{Frightening}</p><p>@UUID[Compendium.wfrp4e-core.items.BlHVzfs0Ow6IYEDw]{Furious Assault}</p><p>@UUID[Compendium.wfrp4e-core.items.8lSoPDGrmeTIaapm]{Gregarious}</p><p>@UUID[Compendium.wfrp4e-core.items.0ep8BNMiZGVLTHpr]{Gunner}</p><p>@UUID[Compendium.wfrp4e-core.items.zImcTgEl2XNnbu5W]{Hardy}</p><p>@UUID[Compendium.wfrp4e-core.items.E98mVLZgE8bX5vQW]{Hatred}</p><p>@UUID[Compendium.wfrp4e-core.items.RyxOZqcBNZ7Zw721]{Holy Hatred}</p><p>@UUID[Compendium.wfrp4e-core.items.Nj3tC8A5fZ3zEdMR]{Holy Visions}</p><p>@UUID[Compendium.wfrp4e-core.items.bxbTiLzbaz4vdukT]{Hunter's Eye}</p><p>@UUID[Compendium.wfrp4e-core.items.oGbDwnLOn3isPJpO]{Impassioned Zeal}</p><p>@UUID[Compendium.wfrp4e-core.items.xx8SgdWYEjKct7ym]{Implacable}</p><p>@UUID[Compendium.wfrp4e-core.items.tX9R9rSYm2YyEnOK]{In-fighter}</p><p>@UUID[Compendium.wfrp4e-core.items.WCXnFSV4WOSmzzc4]{Inspiring}</p><p>@UUID[Compendium.wfrp4e-core.items.BYChSVfMG004eflQ]{Instinctive Diction}</p><p>@UUID[Compendium.wfrp4e-core.items.voV0C2ar1bKpcpnH]{Invoke}</p><p>@UUID[Compendium.wfrp4e-core.items.UaDGF5MBFBwPq5YU]{Iron Jaw}</p><p>@UUID[Compendium.wfrp4e-core.items.mgeiaDZXei7JBEgo]{Iron Will}</p><p>@UUID[Compendium.wfrp4e-core.items.BIaLeh4CPFaTMbFz]{Jump Up}</p><p>@UUID[Compendium.wfrp4e-core.items.RbnrfHf7GSQap0ig]{Kingpin}</p><p>@UUID[Compendium.wfrp4e-core.items.BbStIySkF1hDM2zq]{Lightning Reflexes}</p><p>@UUID[Compendium.wfrp4e-core.items.726gbrANZt8OqXr5]{Linguistics}</p><p>@UUID[Compendium.wfrp4e-core.items.OXfa9uwG36syzaix]{Lip Reading}</p><p>@UUID[Compendium.wfrp4e-core.items.u0CFf3xwiyidD9T5]{Luck}</p><p>@UUID[Compendium.wfrp4e-core.items.eowbsW6oHGSNJmxV]{Magic Resistance}</p><p>@UUID[Compendium.wfrp4e-core.items.6w30u0VPsAicrqb5]{Magical Sense}</p><p>@UUID[Compendium.wfrp4e-core.items.QdvY9hoDTbr12jXq]{Magnum Opus}</p><p>@UUID[Compendium.wfrp4e-core.items.5lcttqGToT54WFrl]{Marksman}</p><p>@UUID[Compendium.wfrp4e-core.items.ZWcTbeK8i9vKph2a]{Master Orator}</p><p>@UUID[Compendium.wfrp4e-core.items.GHmXS9zGNx3PWYZc]{Master Tradesman}</p><p>@UUID[Compendium.wfrp4e-core.items.WoXShzaYkV5F6c48]{Master of Disguise}</p><p>@UUID[Compendium.wfrp4e-core.items.0hn6UaKq8CoZP2zD]{Menacing}</p><p>@UUID[Compendium.wfrp4e-core.items.LU6Ycl5z4kp1Wr04]{Mimic}</p><p>@UUID[Compendium.wfrp4e-core.items.x0WMGwuQzReXcQrs]{Night Vision}</p><p>@UUID[Compendium.wfrp4e-core.items.7bZjB82f6LSkeczP]{Nimble Fingered}</p><p>@UUID[Compendium.wfrp4e-core.items.1IVGksL10N7GVrw3]{Noble Blood}</p><p>@UUID[Compendium.wfrp4e-core.items.AcnFuDKRemLI9ey7]{Nose for Trouble}</p><p>@UUID[Compendium.wfrp4e-core.items.5QcrpLQWWrsbKR79]{Numismatics}</p><p>@UUID[Compendium.wfrp4e-core.items.L74MT9BDwE4CfutY]{Old Salt}</p><p>@UUID[Compendium.wfrp4e-core.items.afREA9q7v4Scuozn]{Orientation}</p><p>@UUID[Compendium.wfrp4e-core.items.eEHauevJWhmzvCSx]{Panhandle}</p><p>@UUID[Compendium.wfrp4e-core.items.pQjZdMJDDaz0DpAD]{Perfect Pitch}</p><p>@UUID[Compendium.wfrp4e-core.items.mdPGZsn2396dEpOf]{Petty Magic}</p><p>@UUID[Compendium.wfrp4e-core.items.G4rPR0XGiYFUZWKi]{Pharmacist}</p><p>@UUID[Compendium.wfrp4e-core.items.WEH97InIX29nzgW1]{Pilot}</p><div class=\"journal-image float-right\"><img src=\"modules/wfrp4e-core/art/spot/spot-animal-skull.webp\" width=\"273\" height=\"353\" /></div><p>@UUID[Compendium.wfrp4e-core.items.XU7D9CCmumuhqDUi]{Public Speaker}</p><p>@UUID[Compendium.wfrp4e-core.items.wNvPXAhlKABl6hpk]{Pure Soul}</p><p>@UUID[Compendium.wfrp4e-core.items.769B469sqx6FXPfn]{Rapid Reload}</p><p>@UUID[Compendium.wfrp4e-core.items.4AqSkJnFPqNuTkos]{Reaction Strike}</p><p>@UUID[Compendium.wfrp4e-core.items.GogGbYxkVdCmiKqf]{Read/Write}</p><p>@UUID[Compendium.wfrp4e-core.items.SgjJMBgc85aswvhm]{Relentless}</p><p>@UUID[Compendium.wfrp4e-core.items.vMYEkrWj0ip6ZOdv]{Resistance}</p><p>@UUID[Compendium.wfrp4e-core.items.uRvOg8AnCcP2ufx8]{Resolute}</p><p>@UUID[Compendium.wfrp4e-core.items.QolNfSUkezLoAcky]{Reversal}</p><p>@UUID[Compendium.wfrp4e-core.items.x8jsChg17VQ9XgiK]{Riposte}</p><p>@UUID[Compendium.wfrp4e-core.items.PoYlemaEIbZw30Em]{River Guide}</p><p>@UUID[Compendium.wfrp4e-core.items.nWLsoWQBCjPRKxYx]{Robust}</p><p>@UUID[Compendium.wfrp4e-core.items.9CAkY3SQjQxRTlNJ]{Roughrider}</p><p>@UUID[Compendium.wfrp4e-core.items.q58lK4kULJZB5GjE]{Rover}</p><p>@UUID[Compendium.wfrp4e-core.items.580fwhKfOZJFxMID]{Savant}</p><p>@UUID[Compendium.wfrp4e-core.items.QsrXxGZiHjth7RMg]{Savvy}</p><p>@UUID[Compendium.wfrp4e-core.items.MGEPI4jNhymNIRVz]{Scale Sheer Surface}</p><p>@UUID[Compendium.wfrp4e-core.items.b4x1qEWcevX7xK58]{Schemer}</p><p>@UUID[Compendium.wfrp4e-core.items.Ij9N3G8jzxb4lrwy]{Sea Legs}</p><p>@UUID[Compendium.wfrp4e-core.items.jQmIu8P85tF0njmD]{Seasoned Traveller}</p><p>@UUID[Compendium.wfrp4e-core.items.OEjUvJKi0xmBwbS2]{Second Sight}</p><p>@UUID[Compendium.wfrp4e-core.items.PJ4oxDExnuFNr2Fi]{Secret Identity}</p><p>@UUID[Compendium.wfrp4e-core.items.XSb3QVB9ipPBFt56]{Shadow}</p><p>@UUID[Compendium.wfrp4e-core.items.oQzTJEXUx28sCiH3]{Sharp}</p><p>@UUID[Compendium.wfrp4e-core.items.jrYW2OyDHd1Md2my]{Sharpshooter}</p><p>@UUID[Compendium.wfrp4e-core.items.IT3s7rmQFGNzIfYq]{Shieldsman}</p><p>@UUID[Compendium.wfrp4e-core.items.mNoCuaVbFBflfO6X]{Sixth Sense}</p><p>@UUID[Compendium.wfrp4e-core.items.GOtpCOZ2br14GrBW]{Slayer}</p><p>@UUID[Compendium.wfrp4e-core.items.eBwHnWdwQJ590ASb]{Small}</p><p>@UUID[Compendium.wfrp4e-core.items.cygaI9gq4BQJvbB5]{Sniper}</p><p>@UUID[Compendium.wfrp4e-core.items.kQbVFzsh4LbaIzHU]{Speedreader}</p><div class=\"journal-image float-right\"><img src=\"modules/wfrp4e-core/art/spot/spot-device.webp\" width=\"218\" height=\"242\" /></div><p>@UUID[Compendium.wfrp4e-core.items.AwUUEwwf2Vt4ksCN]{Sprinter}</p><p>@UUID[Compendium.wfrp4e-core.items.HpGjzrSR4tdogJtl]{Step Aside}</p><p>@UUID[Compendium.wfrp4e-core.items.spdiWsONKTzkLbg3]{Stone Soup}</p><p>@UUID[Compendium.wfrp4e-core.items.IogM5gnsoOX63w7j]{Stout-hearted}</p><p>@UUID[Compendium.wfrp4e-core.items.1dUizIgLBgn4jICC]{Strider}</p><p>@UUID[Compendium.wfrp4e-core.items.4MJJCiOKPkBByYwW]{Strike Mighty Blow}</p><p>@UUID[Compendium.wfrp4e-core.items.RWJrupj9seau0w31]{Strike to Injure}</p><p>@UUID[Compendium.wfrp4e-core.items.jt0DmVK9IiF6Sd2h]{Strike to Stun}</p><p>@UUID[Compendium.wfrp4e-core.items.FF41XPboORgyDNsv]{Strong Back}</p><p>@UUID[Compendium.wfrp4e-core.items.CV9btQn09S9Fn8Jk]{Strong Legs}</p><p>@UUID[Compendium.wfrp4e-core.items.4wnQc19allWlyOGe]{Strong Swimmer}</p><p>@UUID[Compendium.wfrp4e-core.items.Ywo6fZNPC4zbHHSQ]{Strong-minded}</p><p>@UUID[Compendium.wfrp4e-core.items.qZ4cFy6z482ZONuA]{Sturdy}</p><p>@UUID[Compendium.wfrp4e-core.items.LPgjE0cexTVOBVCY]{Suave}</p><p>@UUID[Compendium.wfrp4e-core.items.sBHarYXR2o7jD1VY]{Super Numerate}</p><p>@UUID[Compendium.wfrp4e-core.items.aZavWXbSXVBmWeJi]{Supportive}</p><p>@UUID[Compendium.wfrp4e-core.items.phXzaUxl3mFqkmDq]{Sure Shot}</p><p>@UUID[Compendium.wfrp4e-core.items.NP4EHyyh1yOLbsPU]{Surgery}</p><p>@UUID[Compendium.wfrp4e-core.items.jviOQmy0luQOySC2]{Tenacious}</p><p>@UUID[Compendium.wfrp4e-core.items.6lQRRgjz8IZH4bbV]{Tinker}</p><p>@UUID[Compendium.wfrp4e-core.items.V9N0LMnXf1WYseCL]{Tower of Memories}</p><p>@UUID[Compendium.wfrp4e-core.items.a7v422EZcOUUC20X]{Trapper}</p><p>@UUID[Compendium.wfrp4e-core.items.FjTnaxixsu1ShNNr]{Trick Riding}</p><p>@UUID[Compendium.wfrp4e-core.items.Z91GFaT6FhEwyESU]{Tunnel Rat}</p><p>@UUID[Compendium.wfrp4e-core.items.8oWhzlcw7oiHGMFu]{Unshakable}</p><p>@UUID[Compendium.wfrp4e-core.items.RmY0CUjiFYZ3GEKY]{Very Resilient}</p><p>@UUID[Compendium.wfrp4e-core.items.Zf0vk2rjllpDh0Ua]{Very Strong}</p><p>@UUID[Compendium.wfrp4e-core.items.vCgEAetBMngR53aT]{War Leader}</p><p>@UUID[Compendium.wfrp4e-core.items.F2EiuAc6IpaGd4J7]{War Wizard}</p><p>@UUID[Compendium.wfrp4e-core.items.zGQ0ShUTSlUvVtWh]{Warrior Born}</p><p>@UUID[Compendium.wfrp4e-core.items.tlEg21DHMEJoWcJq]{Waterman}</p><p>@UUID[Compendium.wfrp4e-core.items.OROfMcVqRnZHINkU]{Wealthy}</p><p>@UUID[Compendium.wfrp4e-core.items.SHH2vUpNxj0wmmPT]{Well-prepared}</p><p>@UUID[Compendium.wfrp4e-core.items.qdMbxW09FUoYBzmB]{Witch!}</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 4900000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.1.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "13.348",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.1.5",
+    "createdTime": 1757182807614,
+    "modifiedTime": 1757184384962,
+    "lastModifiedBy": "rbZmnErLLwkYOmyj",
+    "exportSource": {
+      "worldId": "aty",
+      "uuid": "JournalEntry.6zOdTLv3YeYeJ4hR",
+      "coreVersion": "13.348",
+      "systemId": "wfrp4e",
+      "systemVersion": "9.1.5"
+    }
+  },
+  "folder": "1NP23gRF7NejIzxq",
+  "categories": [],
+  "ownership": {
+    "default": 2
+  }
+}
